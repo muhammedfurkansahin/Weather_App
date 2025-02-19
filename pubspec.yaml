@@ -44,8 +44,8 @@ dependencies:
   http: ^1.2.2
 
   #state managment
-  bloc: ^8.1.4
-  flutter_bloc: ^8.1.6
+  bloc: ^9.0.0
+  flutter_bloc: ^9.0.0
   
   #analyze
   equatable: ^2.0.5
@@ -58,7 +58,7 @@ dependencies:
   geolocator: ^13.0.1
 
   #homescreen widget
-  home_widget: ^0.6.0
+  home_widget: ^0.7.0+1
 
 
 dev_dependencies:
@@ -70,7 +70,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
