@@ -1,0 +1,1 @@
+C:\android_proje\weather_app\Weather_App\build\app\intermediates\cxx\RelWithDebInfo\6p1d2v49\obj\x86_64
