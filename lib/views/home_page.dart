@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:weather_app/languages/text_widgets.dart';
 import 'package:weather_app/views/favorite_pages.dart';
 import 'package:weather_app/views/search_page.dart';
@@ -31,9 +32,22 @@ class _HomePageState extends State<HomePage> {
       future: SharedPreferences.getInstance(),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
-          return const Center(child: CircularProgressIndicator());
+          return Center(
+            child: CircularProgressIndicator(
+              color: Theme.of(context).colorScheme.primary,
+              strokeWidth: 0.5.w,
+            ),
+          );
         } else if (snapshot.hasError) {
-          return Center(child: Text('${ErrorMessage.error}: ${snapshot.error}'));
+          return Center(
+            child: Text(
+              '${ErrorMessage.error}: ${snapshot.error}',
+              style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                    color: Theme.of(context).colorScheme.error,
+                    fontSize: 16.sp,
+                  ),
+            ),
+          );
         } else {
           final sharedPreferences = snapshot.data!;
           return homeMultiBlocProvider(sharedPreferences, context);
@@ -44,6 +58,9 @@ class _HomePageState extends State<HomePage> {
 
   MultiBlocProvider homeMultiBlocProvider(
       SharedPreferences sharedPreferences, BuildContext context) {
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+
     return MultiBlocProvider(
       providers: [
         homeWeatherBlocCubitProvider(),
@@ -51,10 +68,19 @@ class _HomePageState extends State<HomePage> {
       ],
       child: Scaffold(
         appBar: AppBar(
-          title: const Text(ProjectKeywords.weather),
+          title: Text(
+            ProjectKeywords.weather,
+            style: theme.appBarTheme.titleTextStyle?.copyWith(
+              fontSize: 20.sp,
+            ),
+          ),
           actions: [
             IconButton(
-              icon: const Icon(Icons.brightness_6_outlined),
+              icon: Icon(
+                Icons.brightness_6_outlined,
+                color: colorScheme.onSurface,
+                size: 24.sp,
+              ),
               onPressed: () {
                 context.read<ThemeCubit>().toggleTheme();
               },
@@ -62,7 +88,7 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
         floatingActionButton: FloatingActionButton(
-          backgroundColor: Colors.white.withOpacity(0.8),
+          backgroundColor: colorScheme.primary.withValues(alpha: 0.9),
           onPressed: () {
             Navigator.push(
               context,
@@ -71,22 +97,51 @@ class _HomePageState extends State<HomePage> {
               ),
             );
           },
-          child: const Icon(
+          child: Icon(
             Icons.sunny,
-            color: Colors.orange,
-            size: 36,
+            color: colorScheme.onPrimary,
+            size: 32.sp,
           ),
         ),
         floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
         bottomNavigationBar: BottomNavigationBar(
-          items: const [
+          items: [
             BottomNavigationBarItem(
-                icon: Icon(Icons.star), label: ProjectKeywords.favorites),
+              icon: Icon(
+                Icons.star,
+                color: _selectedIndex == 0
+                    ? colorScheme.primary
+                    : colorScheme.onSurface.withValues(alpha: 0.6),
+                size: 24.sp,
+              ),
+              label: ProjectKeywords.favorites,
+            ),
             BottomNavigationBarItem(
-                icon: Icon(Icons.search), label: ProjectKeywords.search),
+              icon: Icon(
+                Icons.search,
+                color: _selectedIndex == 1
+                    ? colorScheme.primary
+                    : colorScheme.onSurface.withValues(alpha: 0.6),
+                size: 24.sp,
+              ),
+              label: ProjectKeywords.search,
+            ),
           ],
           currentIndex: _selectedIndex,
-          selectedItemColor: Colors.amber[800],
+          selectedItemColor: colorScheme.primary,
+          unselectedItemColor: colorScheme.onSurface.withValues(alpha: 0.6),
+          backgroundColor: colorScheme.surface,
+          selectedLabelStyle: theme.textTheme.bodySmall?.copyWith(
+            color: colorScheme.primary,
+            fontWeight: FontWeight.w600,
+            fontSize: 12.sp,
+          ),
+          unselectedLabelStyle: theme.textTheme.bodySmall?.copyWith(
+            color: colorScheme.onSurface.withValues(alpha: 0.6),
+            fontSize: 12.sp,
+          ),
+          type: BottomNavigationBarType.fixed,
+          elevation: 8,
           onTap: _onItemTapped,
         ),
         body: IndexedStack(
@@ -100,8 +155,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  BlocProvider<FavoriteCubit> homeFavoriteBlocCubitProvider(
-      SharedPreferences sharedPreferences) {
+  BlocProvider<FavoriteCubit> homeFavoriteBlocCubitProvider(SharedPreferences sharedPreferences) {
     return BlocProvider(
       create: (context) => FavoriteCubit(
         context.read<WeatherCubit>(),

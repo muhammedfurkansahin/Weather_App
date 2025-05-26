@@ -60,6 +60,8 @@ dependencies:
   #homescreen widget
   home_widget: ^0.7.0+1
 
+  #responsive design
+  responsive_sizer: ^3.3.1
 
 dev_dependencies:
   flutter_test:

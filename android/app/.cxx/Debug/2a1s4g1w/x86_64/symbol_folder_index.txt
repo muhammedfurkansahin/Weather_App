@@ -1,0 +1,1 @@
+C:\android_proje\weather_app\Weather_App\build\app\intermediates\cxx\Debug\2a1s4g1w\obj\x86_64
