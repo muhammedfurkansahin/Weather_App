@@ -7,6 +7,7 @@ import 'package:weather_app/cubit/weather_cubit.dart';
 import 'package:weather_app/cubit/theme_cubit.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
