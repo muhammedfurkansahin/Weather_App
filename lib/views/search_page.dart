@@ -95,25 +95,25 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
           ),
           child: Icon(
             Icons.search_rounded,
-            size: 48.sp,
+            size: 4.h,
             color: theme.colorScheme.primary,
           ),
         ),
-        SizedBox(height: 4.h),
+        SizedBox(height: 1.h),
         Text(
           'Şehir Ara',
           style: theme.textTheme.headlineMedium?.copyWith(
             fontWeight: FontWeight.w700,
             color: theme.colorScheme.onSurface,
-            fontSize: 24.sp,
+            fontSize: 3.h,
           ),
         ),
-        SizedBox(height: 2.h),
+        SizedBox(height: 1.h),
         Text(
           'Dünyanın herhangi bir şehrinin hava durumunu öğrenin',
           style: theme.textTheme.bodyMedium?.copyWith(
             color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
-            fontSize: 14.sp,
+            fontSize: 1.8.h,
           ),
           textAlign: TextAlign.center,
         ),
@@ -150,7 +150,7 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
                 keyboardType: TextInputType.text,
                 style: theme.textTheme.bodyLarge?.copyWith(
                   color: theme.colorScheme.onSurface,
-                  fontSize: 16.sp,
+                  fontSize: 2.h,
                 ),
                 decoration: InputDecoration(
                   prefixIcon: Container(
@@ -162,18 +162,18 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
                     child: Icon(
                       Icons.location_city_rounded,
                       color: theme.colorScheme.primary,
-                      size: 20.sp,
+                      size: 3.h,
                     ),
                   ),
                   labelText: ProjectKeywords.writeCity,
                   labelStyle: TextStyle(
                     color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
-                    fontSize: 14.sp,
+                    fontSize: 1.8.h,
                   ),
                   hintText: 'Örn: İstanbul, London, Tokyo',
                   hintStyle: TextStyle(
                     color: theme.colorScheme.onSurface.withValues(alpha: 0.5),
-                    fontSize: 14.sp,
+                    fontSize: 1.8.h,
                   ),
                   filled: true,
                   fillColor: theme.colorScheme.surfaceContainerHighest,
@@ -241,7 +241,7 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
                     children: [
                       Icon(
                         Icons.search_rounded,
-                        size: 20.sp,
+                        size: 2.5.h,
                       ),
                       SizedBox(width: 2.w),
                       Text(
@@ -249,7 +249,7 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
                         style: theme.textTheme.titleMedium?.copyWith(
                           color: theme.colorScheme.onPrimary,
                           fontWeight: FontWeight.w600,
-                          fontSize: 16.sp,
+                          fontSize: 2.h,
                         ),
                       ),
                     ],
@@ -591,8 +591,7 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
     );
   }
 
-  Widget _buildWeatherDetail(
-      BuildContext context, IconData icon, String label, String value, Color color) {
+  Widget _buildWeatherDetail(BuildContext context, IconData icon, String label, String value, Color color) {
     final theme = Theme.of(context);
     return Column(
       children: [

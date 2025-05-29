@@ -148,7 +148,7 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
             icon: Icon(
               Icons.arrow_back_ios_rounded,
               color: theme.colorScheme.onSurface,
-              size: 20.sp,
+              size: 2.5.h,
             ),
             onPressed: () => Navigator.of(context).pop(),
           ),
@@ -158,7 +158,7 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
           style: theme.textTheme.titleLarge?.copyWith(
             color: theme.colorScheme.onSurface,
             fontWeight: FontWeight.w600,
-            fontSize: 18.sp,
+            fontSize: 2.2.h,
           ),
         ),
         actions: [
@@ -172,7 +172,7 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
               icon: Icon(
                 Icons.refresh_rounded,
                 color: theme.colorScheme.onSurface,
-                size: 20.sp,
+                size: 2.5.h,
               ),
               onPressed: _fetchCurrentLocationWeather,
             ),
@@ -223,7 +223,7 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
               ),
               child: Icon(
                 Icons.location_searching_rounded,
-                size: 64.sp,
+                size: 8.h,
                 color: theme.colorScheme.primary,
               ),
             ),
@@ -239,7 +239,7 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
             style: theme.textTheme.titleMedium?.copyWith(
               color: theme.colorScheme.onSurface,
               fontWeight: FontWeight.w500,
-              fontSize: 16.sp,
+              fontSize: 2.h,
             ),
           ),
           SizedBox(height: 2.h),
@@ -247,7 +247,7 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
             'Hava durumu bilgileri yükleniyor',
             style: theme.textTheme.bodyMedium?.copyWith(
               color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
-              fontSize: 14.sp,
+              fontSize: 1.8.h,
             ),
           ),
         ],
@@ -280,7 +280,7 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
               size: 64,
               color: theme.colorScheme.error,
             ),
-            const SizedBox(height: 24),
+            SizedBox(height: 2.4.h),
             Text(
               'Konum Hatası',
               style: theme.textTheme.headlineSmall?.copyWith(
@@ -288,7 +288,7 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
                 fontWeight: FontWeight.w600,
               ),
             ),
-            const SizedBox(height: 12),
+            SizedBox(height: 1.2.h),
             Text(
               message,
               style: theme.textTheme.bodyLarge?.copyWith(
@@ -296,7 +296,7 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
               ),
               textAlign: TextAlign.center,
             ),
-            const SizedBox(height: 24),
+            SizedBox(height: 2.4.h),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -348,10 +348,10 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
           children: [
             Icon(
               Icons.my_location_rounded,
-              size: 64,
+              size: 3.h,
               color: theme.colorScheme.primary,
             ),
-            const SizedBox(height: 24),
+            SizedBox(height: 2.4.h),
             Text(
               'Konum Bekleniyor',
               style: theme.textTheme.headlineSmall?.copyWith(
@@ -359,7 +359,7 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
                 fontWeight: FontWeight.w600,
               ),
             ),
-            const SizedBox(height: 12),
+            SizedBox(height: 1.2.h),
             Text(
               'Mevcut konumunuzun hava durumu bilgileri alınıyor',
               style: theme.textTheme.bodyMedium?.copyWith(
@@ -389,7 +389,7 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    SizedBox(height: 25.h),
+                    SizedBox(height: 10.h),
                     _buildLocationHeader(context, state),
                     SizedBox(height: 8.h),
                     _buildMainWeatherCard(context, state),
@@ -420,11 +420,11 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
           ),
           child: Icon(
             Icons.location_on_rounded,
-            size: 32,
+            size: 3.2.h,
             color: theme.colorScheme.primary,
           ),
         ),
-        const SizedBox(height: 16),
+        SizedBox(height: 1.6.h),
         Text(
           state.weather.cityName,
           style: theme.textTheme.headlineLarge?.copyWith(
@@ -433,7 +433,7 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
           ),
           textAlign: TextAlign.center,
         ),
-        const SizedBox(height: 8),
+        SizedBox(height: 0.8.h),
         Container(
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
           decoration: BoxDecoration(
@@ -481,15 +481,17 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
       child: Column(
         children: [
           Container(
-            padding: const EdgeInsets.all(20),
+            margin: EdgeInsets.all(0),
+            padding: const EdgeInsets.all(0),
             decoration: BoxDecoration(
               color: theme.colorScheme.surface,
               borderRadius: BorderRadius.circular(20),
             ),
             child: Image.network(
               state.weather.icon,
-              width: 100,
-              height: 100,
+              width: 10.h,
+              height: 10.h,
+              fit: BoxFit.contain,
               errorBuilder: (context, error, stackTrace) {
                 return Icon(
                   Icons.cloud,
@@ -499,7 +501,7 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
               },
             ),
           ),
-          const SizedBox(height: 24),
+          SizedBox(height: 2.4.h),
           Text(
             '${state.weather.temperature}${MeasureUnit.centigrade}',
             style: theme.textTheme.displayLarge?.copyWith(
@@ -507,7 +509,7 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
               color: theme.colorScheme.primary,
             ),
           ),
-          const SizedBox(height: 8),
+          SizedBox(height: 0.8.h),
           Text(
             state.weather.description,
             style: theme.textTheme.titleLarge?.copyWith(

@@ -89,8 +89,7 @@ class FavoritePage extends StatelessWidget {
     );
   }
 
-  BlocProvider<FavoriteCubit> favoriteWeatherBlocProvider(
-      BuildContext context, SharedPreferences sharedPreferences) {
+  BlocProvider<FavoriteCubit> favoriteWeatherBlocProvider(BuildContext context, SharedPreferences sharedPreferences) {
     return BlocProvider(
       create: (context) => FavoriteCubit(
         BlocProvider.of<WeatherCubit>(context),
@@ -142,7 +141,7 @@ class FavoritePage extends StatelessWidget {
               ),
               child: Icon(
                 Icons.favorite_border_rounded,
-                size: 64.sp,
+                size: 8.h,
                 color: theme.colorScheme.primary,
               ),
             ),
@@ -152,7 +151,7 @@ class FavoritePage extends StatelessWidget {
               style: theme.textTheme.headlineSmall?.copyWith(
                 color: theme.colorScheme.onSurface,
                 fontWeight: FontWeight.w600,
-                fontSize: 18.sp,
+                fontSize: 2.2.h,
               ),
               textAlign: TextAlign.center,
             ),
@@ -161,7 +160,7 @@ class FavoritePage extends StatelessWidget {
               'Favori şehirlerinizi ekleyerek hava durumunu kolayca takip edin',
               style: theme.textTheme.bodyMedium?.copyWith(
                 color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
-                fontSize: 14.sp,
+                fontSize: 1.8.h,
               ),
               textAlign: TextAlign.center,
             ),
@@ -500,8 +499,7 @@ class FavoritePage extends StatelessWidget {
     );
   }
 
-  Widget _buildDetailItem(
-      BuildContext context, IconData icon, String label, String value, Color color) {
+  Widget _buildDetailItem(BuildContext context, IconData icon, String label, String value, Color color) {
     final theme = Theme.of(context);
     return Column(
       children: [
