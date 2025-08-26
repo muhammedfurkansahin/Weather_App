@@ -52,9 +52,9 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: [
-            theme.colorScheme.primary.withValues(alpha: 0.05),
-            theme.colorScheme.secondary.withValues(alpha: 0.03),
-            theme.colorScheme.tertiary.withValues(alpha: 0.02),
+            theme.colorScheme.primary.withOpacity(0.05),
+            theme.colorScheme.secondary.withOpacity(0.03),
+            theme.colorScheme.tertiary.withOpacity(0.02),
           ],
         ),
       ),
@@ -90,7 +90,7 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
         Container(
           padding: EdgeInsets.all(5.w),
           decoration: BoxDecoration(
-            color: theme.colorScheme.primary.withValues(alpha: 0.1),
+            color: theme.colorScheme.primary.withOpacity(0.1),
             shape: BoxShape.circle,
           ),
           child: Icon(
@@ -112,7 +112,7 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
         Text(
           'Dünyanın herhangi bir şehrinin hava durumunu öğrenin',
           style: theme.textTheme.bodyMedium?.copyWith(
-            color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
+            color: theme.colorScheme.onSurface.withOpacity(0.7),
             fontSize: 1.8.h,
           ),
           textAlign: TextAlign.center,
@@ -129,13 +129,13 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
         borderRadius: BorderRadius.circular(6.w),
         boxShadow: [
           BoxShadow(
-            color: theme.colorScheme.primary.withValues(alpha: 0.1),
+            color: theme.colorScheme.primary.withOpacity(0.1),
             blurRadius: 5.w,
             offset: Offset(0, 2.w),
           ),
         ],
         border: Border.all(
-          color: theme.colorScheme.outline.withValues(alpha: 0.1),
+          color: theme.colorScheme.outline.withOpacity(0.1),
           width: 0.2.w,
         ),
       ),
@@ -156,7 +156,7 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
                   prefixIcon: Container(
                     margin: EdgeInsets.all(2.w),
                     decoration: BoxDecoration(
-                      color: theme.colorScheme.primary.withValues(alpha: 0.1),
+                      color: theme.colorScheme.primary.withOpacity(0.1),
                       borderRadius: BorderRadius.circular(3.w),
                     ),
                     child: Icon(
@@ -167,12 +167,12 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
                   ),
                   labelText: ProjectKeywords.writeCity,
                   labelStyle: TextStyle(
-                    color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
+                    color: theme.colorScheme.onSurface.withOpacity(0.7),
                     fontSize: 1.8.h,
                   ),
                   hintText: 'Örn: İstanbul, London, Tokyo',
                   hintStyle: TextStyle(
-                    color: theme.colorScheme.onSurface.withValues(alpha: 0.5),
+                    color: theme.colorScheme.onSurface.withOpacity(0.5),
                     fontSize: 1.8.h,
                   ),
                   filled: true,
@@ -184,7 +184,7 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
                   enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(4.w),
                     borderSide: BorderSide(
-                      color: theme.colorScheme.outline.withValues(alpha: 0.2),
+                      color: theme.colorScheme.outline.withOpacity(0.2),
                     ),
                   ),
                   focusedBorder: OutlineInputBorder(
@@ -230,7 +230,7 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
                     backgroundColor: theme.colorScheme.primary,
                     foregroundColor: theme.colorScheme.onPrimary,
                     elevation: 0,
-                    shadowColor: theme.colorScheme.primary.withValues(alpha: 0.3),
+                    shadowColor: theme.colorScheme.primary.withOpacity(0.3),
                     padding: EdgeInsets.symmetric(vertical: 4.w),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(4.w),
@@ -289,7 +289,7 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
         color: theme.colorScheme.surface,
         borderRadius: BorderRadius.circular(20),
         border: Border.all(
-          color: theme.colorScheme.outline.withValues(alpha: 0.1),
+          color: theme.colorScheme.outline.withOpacity(0.1),
         ),
       ),
       child: Column(
@@ -297,13 +297,13 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
           Icon(
             Icons.cloud_outlined,
             size: 48,
-            color: theme.colorScheme.primary.withValues(alpha: 0.7),
+            color: theme.colorScheme.primary.withOpacity(0.7),
           ),
           const SizedBox(height: 16),
           Text(
             ProjectKeywords.writeCity,
             style: theme.textTheme.titleMedium?.copyWith(
-              color: theme.colorScheme.onSurface.withValues(alpha: 0.8),
+              color: theme.colorScheme.onSurface.withOpacity(0.8),
             ),
             textAlign: TextAlign.center,
           ),
@@ -321,7 +321,7 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: theme.colorScheme.primary.withValues(alpha: 0.1),
+            color: theme.colorScheme.primary.withOpacity(0.1),
             blurRadius: 15,
             offset: const Offset(0, 5),
           ),
@@ -337,7 +337,7 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
           Text(
             'Hava durumu bilgileri alınıyor...',
             style: theme.textTheme.bodyMedium?.copyWith(
-              color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
+              color: theme.colorScheme.onSurface.withOpacity(0.7),
             ),
           ),
         ],
@@ -354,7 +354,7 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: theme.colorScheme.error.withValues(alpha: 0.1),
+            color: theme.colorScheme.error.withOpacity(0.1),
             blurRadius: 10,
             offset: const Offset(0, 4),
           ),
@@ -401,13 +401,13 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
         borderRadius: BorderRadius.circular(24),
         boxShadow: [
           BoxShadow(
-            color: theme.colorScheme.primary.withValues(alpha: 0.15),
+            color: theme.colorScheme.primary.withOpacity(0.15),
             blurRadius: 20,
             offset: const Offset(0, 8),
           ),
         ],
         border: Border.all(
-          color: theme.colorScheme.outline.withValues(alpha: 0.1),
+          color: theme.colorScheme.outline.withOpacity(0.1),
           width: 1,
         ),
       ),
@@ -421,8 +421,8 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
                 colors: [
-                  theme.colorScheme.primary.withValues(alpha: 0.1),
-                  theme.colorScheme.secondary.withValues(alpha: 0.05),
+                  theme.colorScheme.primary.withOpacity(0.1),
+                  theme.colorScheme.secondary.withOpacity(0.05),
                 ],
               ),
               borderRadius: const BorderRadius.only(
@@ -444,7 +444,7 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
                 Container(
                   padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                   decoration: BoxDecoration(
-                    color: theme.colorScheme.secondary.withValues(alpha: 0.1),
+                    color: theme.colorScheme.secondary.withOpacity(0.1),
                     borderRadius: BorderRadius.circular(20),
                   ),
                   child: Text(
@@ -470,7 +470,7 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
                     Container(
                       padding: const EdgeInsets.all(16),
                       decoration: BoxDecoration(
-                        color: theme.colorScheme.primary.withValues(alpha: 0.1),
+                        color: theme.colorScheme.primary.withOpacity(0.1),
                         borderRadius: BorderRadius.circular(20),
                       ),
                       child: Image.network(
@@ -500,7 +500,7 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
                         Text(
                           'Sıcaklık',
                           style: theme.textTheme.bodyMedium?.copyWith(
-                            color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
+                            color: theme.colorScheme.onSurface.withOpacity(0.7),
                           ),
                         ),
                       ],
@@ -529,7 +529,7 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
                       Container(
                         width: 1,
                         height: 50,
-                        color: theme.colorScheme.outline.withValues(alpha: 0.2),
+                        color: theme.colorScheme.outline.withOpacity(0.2),
                       ),
                       Expanded(
                         child: _buildWeatherDetail(
@@ -604,7 +604,7 @@ class SearchPageState extends State<SearchPage> with TickerProviderStateMixin {
         Text(
           label,
           style: theme.textTheme.bodySmall?.copyWith(
-            color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
+            color: theme.colorScheme.onSurface.withOpacity(0.7),
           ),
         ),
         const SizedBox(height: 4),

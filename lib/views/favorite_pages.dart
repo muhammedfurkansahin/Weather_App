@@ -20,9 +20,9 @@ class FavoritePage extends StatelessWidget {
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: [
-            theme.colorScheme.primary.withValues(alpha: 0.05),
-            theme.colorScheme.secondary.withValues(alpha: 0.03),
-            theme.colorScheme.tertiary.withValues(alpha: 0.02),
+            theme.colorScheme.primary.withOpacity(0.05),
+            theme.colorScheme.secondary.withOpacity(0.03),
+            theme.colorScheme.tertiary.withOpacity(0.02),
           ],
         ),
       ),
@@ -62,7 +62,7 @@ class FavoritePage extends StatelessWidget {
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: theme.colorScheme.error.withValues(alpha: 0.1),
+            color: theme.colorScheme.error.withOpacity(0.1),
             blurRadius: 10,
             offset: const Offset(0, 4),
           ),
@@ -124,7 +124,7 @@ class FavoritePage extends StatelessWidget {
           borderRadius: BorderRadius.circular(6.w),
           boxShadow: [
             BoxShadow(
-              color: theme.colorScheme.primary.withValues(alpha: 0.1),
+              color: theme.colorScheme.primary.withOpacity(0.1),
               blurRadius: 5.w,
               offset: Offset(0, 2.w),
             ),
@@ -136,7 +136,7 @@ class FavoritePage extends StatelessWidget {
             Container(
               padding: EdgeInsets.all(5.w),
               decoration: BoxDecoration(
-                color: theme.colorScheme.primary.withValues(alpha: 0.1),
+                color: theme.colorScheme.primary.withOpacity(0.1),
                 shape: BoxShape.circle,
               ),
               child: Icon(
@@ -159,7 +159,7 @@ class FavoritePage extends StatelessWidget {
             Text(
               'Favori şehirlerinizi ekleyerek hava durumunu kolayca takip edin',
               style: theme.textTheme.bodyMedium?.copyWith(
-                color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
+                color: theme.colorScheme.onSurface.withOpacity(0.7),
                 fontSize: 1.8.h,
               ),
               textAlign: TextAlign.center,
@@ -236,13 +236,13 @@ class FavoritePage extends StatelessWidget {
                 borderRadius: BorderRadius.circular(20),
                 boxShadow: [
                   BoxShadow(
-                    color: theme.colorScheme.primary.withValues(alpha: 0.08),
+                    color: theme.colorScheme.primary.withOpacity(0.08),
                     blurRadius: 15,
                     offset: const Offset(0, 5),
                   ),
                 ],
                 border: Border.all(
-                  color: theme.colorScheme.outline.withValues(alpha: 0.1),
+                  color: theme.colorScheme.outline.withOpacity(0.1),
                   width: 1,
                 ),
               ),
@@ -312,7 +312,7 @@ class FavoritePage extends StatelessWidget {
         Container(
           padding: const EdgeInsets.all(8),
           decoration: BoxDecoration(
-            color: theme.colorScheme.primary.withValues(alpha: 0.1),
+            color: theme.colorScheme.primary.withOpacity(0.1),
             borderRadius: BorderRadius.circular(12),
           ),
           child: Image.network(
@@ -354,7 +354,7 @@ class FavoritePage extends StatelessWidget {
                   Container(
                     padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                     decoration: BoxDecoration(
-                      color: theme.colorScheme.secondary.withValues(alpha: 0.1),
+                      color: theme.colorScheme.secondary.withOpacity(0.1),
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: Text(
@@ -401,7 +401,7 @@ class FavoritePage extends StatelessWidget {
                   Container(
                     width: 1,
                     height: 40,
-                    color: theme.colorScheme.outline.withValues(alpha: 0.2),
+                    color: theme.colorScheme.outline.withOpacity(0.2),
                   ),
                   Expanded(
                     child: _buildDetailItem(
@@ -442,13 +442,13 @@ class FavoritePage extends StatelessWidget {
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
                     colors: [
-                      theme.colorScheme.tertiary.withValues(alpha: 0.1),
-                      theme.colorScheme.primary.withValues(alpha: 0.05),
+                      theme.colorScheme.tertiary.withOpacity(0.1),
+                      theme.colorScheme.primary.withOpacity(0.05),
                     ],
                   ),
                   borderRadius: BorderRadius.circular(16),
                   border: Border.all(
-                    color: theme.colorScheme.outline.withValues(alpha: 0.1),
+                    color: theme.colorScheme.outline.withOpacity(0.1),
                   ),
                 ),
                 child: Column(
@@ -486,7 +486,7 @@ class FavoritePage extends StatelessWidget {
                     Text(
                       '${daily.minTemp}°',
                       style: theme.textTheme.bodySmall?.copyWith(
-                        color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
+                        color: theme.colorScheme.onSurface.withOpacity(0.7),
                       ),
                     ),
                   ],
@@ -512,7 +512,7 @@ class FavoritePage extends StatelessWidget {
         Text(
           label,
           style: theme.textTheme.bodySmall?.copyWith(
-            color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
+            color: theme.colorScheme.onSurface.withOpacity(0.7),
           ),
         ),
         const SizedBox(height: 4),

@@ -92,7 +92,7 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
         floatingActionButton: FloatingActionButton(
-          backgroundColor: colorScheme.primary.withValues(alpha: 0.9),
+          backgroundColor: colorScheme.primary.withOpacity(0.9),
           onPressed: () {
             Navigator.push(
               context,
@@ -113,7 +113,7 @@ class _HomePageState extends State<HomePage> {
             BottomNavigationBarItem(
               icon: Icon(
                 Icons.star,
-                color: _selectedIndex == 0 ? colorScheme.primary : colorScheme.onSurface.withValues(alpha: 0.6),
+                color: _selectedIndex == 0 ? colorScheme.primary : colorScheme.onSurface.withOpacity(0.6),
                 size: 3.h,
               ),
               label: ProjectKeywords.favorites,
@@ -121,7 +121,7 @@ class _HomePageState extends State<HomePage> {
             BottomNavigationBarItem(
               icon: Icon(
                 Icons.search,
-                color: _selectedIndex == 1 ? colorScheme.primary : colorScheme.onSurface.withValues(alpha: 0.6),
+                color: _selectedIndex == 1 ? colorScheme.primary : colorScheme.onSurface.withOpacity(0.6),
                 size: 3.h,
               ),
               label: ProjectKeywords.search,
@@ -129,7 +129,7 @@ class _HomePageState extends State<HomePage> {
           ],
           currentIndex: _selectedIndex,
           selectedItemColor: colorScheme.primary,
-          unselectedItemColor: colorScheme.onSurface.withValues(alpha: 0.6),
+          unselectedItemColor: colorScheme.onSurface.withOpacity(0.6),
           backgroundColor: colorScheme.surface,
           selectedLabelStyle: theme.textTheme.bodySmall?.copyWith(
             color: colorScheme.primary,
@@ -137,7 +137,7 @@ class _HomePageState extends State<HomePage> {
             fontSize: 1.5.h,
           ),
           unselectedLabelStyle: theme.textTheme.bodySmall?.copyWith(
-            color: colorScheme.onSurface.withValues(alpha: 0.6),
+            color: colorScheme.onSurface.withOpacity(0.6),
             fontSize: 1.5.h,
           ),
           type: BottomNavigationBarType.fixed,

@@ -5,6 +5,7 @@ import android.widget.RemoteViewsService
 import android.content.SharedPreferences
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import com.example.weather_app.R
 
 class FavoritesWidgetService : RemoteViewsService() {
     

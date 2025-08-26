@@ -9,6 +9,7 @@ import android.content.ComponentName
 import android.content.SharedPreferences
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import com.example.weather_app.R
 
 class MainActivity: FlutterActivity() {
     private val CHANNEL = "favorites_widget"
@@ -54,10 +55,10 @@ class MainActivity: FlutterActivity() {
         val prefs = getSharedPreferences("favorites", MODE_PRIVATE)
         val favoritesJson = prefs.getString("favorite_cities", "[]")
         val gson = Gson()
-        val type = object : TypeToken<List<String>>() {}.type
+        val type = object : TypeToken<MutableList<String>>() {}.type
         
         val favorites = try {
-            gson.fromJson<List<String>>(favoritesJson, type) ?: mutableListOf()
+            gson.fromJson<MutableList<String>>(favoritesJson, type) ?: mutableListOf()
         } catch (e: Exception) {
             mutableListOf()
         }
@@ -74,10 +75,10 @@ class MainActivity: FlutterActivity() {
         val prefs = getSharedPreferences("favorites", MODE_PRIVATE)
         val favoritesJson = prefs.getString("favorite_cities", "[]")
         val gson = Gson()
-        val type = object : TypeToken<List<String>>() {}.type
+        val type = object : TypeToken<MutableList<String>>() {}.type
         
         val favorites = try {
-            gson.fromJson<List<String>>(favoritesJson, type) ?: mutableListOf()
+            gson.fromJson<MutableList<String>>(favoritesJson, type) ?: mutableListOf()
         } catch (e: Exception) {
             mutableListOf()
         }
@@ -90,8 +91,9 @@ class MainActivity: FlutterActivity() {
         val intent = Intent(this, FavoritesWidgetProvider::class.java)
         intent.action = AppWidgetManager.ACTION_APPWIDGET_UPDATE
         
-        val ids = AppWidgetManager.getInstance(this)
-            .getAppWidgetIds(ComponentName(this, FavoritesWidgetProvider::class.java))
+        val appWidgetManager = AppWidgetManager.getInstance(this)
+        val componentName = ComponentName(this, FavoritesWidgetProvider::class.java)
+        val ids = appWidgetManager.getAppWidgetIds(componentName)
         intent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS, ids)
         
         sendBroadcast(intent)
