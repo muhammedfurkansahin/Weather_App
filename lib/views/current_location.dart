@@ -141,7 +141,8 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
         leading: Container(
           margin: EdgeInsets.all(2.w),
           decoration: BoxDecoration(
-            color: theme.colorScheme.surface.withOpacity(0.2),
+
+            color: theme.colorScheme.surface.withValues(alpha: 0.2),
             borderRadius: BorderRadius.circular(3.w),
           ),
           child: IconButton(
@@ -165,7 +166,8 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
           Container(
             margin: EdgeInsets.all(2.w),
             decoration: BoxDecoration(
-              color: theme.colorScheme.surface.withOpacity(0.2),
+
+              color: theme.colorScheme.surface.withValues(alpha: 0.2),
               borderRadius: BorderRadius.circular(3.w),
             ),
             child: IconButton(
@@ -185,9 +187,10 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [
-              theme.colorScheme.primary.withOpacity(0.1),
-              theme.colorScheme.secondary.withOpacity(0.05),
-              theme.colorScheme.tertiary.withOpacity(0.03),
+
+              theme.colorScheme.primary.withValues(alpha: 0.1),
+              theme.colorScheme.secondary.withValues(alpha: 0.05),
+              theme.colorScheme.tertiary.withValues(alpha: 0.03),
             ],
           ),
         ),
@@ -218,7 +221,8 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
             child: Container(
               padding: EdgeInsets.all(6.w),
               decoration: BoxDecoration(
-                color: theme.colorScheme.primary.withOpacity(0.1),
+
+                color: theme.colorScheme.primary.withValues(alpha: 0.1),
                 shape: BoxShape.circle,
               ),
               child: Icon(
@@ -246,7 +250,8 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
           Text(
             'Hava durumu bilgileri yükleniyor',
             style: theme.textTheme.bodyMedium?.copyWith(
-              color: theme.colorScheme.onSurface.withOpacity(0.7),
+
+              color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
               fontSize: 1.8.h,
             ),
           ),
@@ -266,7 +271,8 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
           borderRadius: BorderRadius.circular(24),
           boxShadow: [
             BoxShadow(
-              color: theme.colorScheme.error.withOpacity(0.1),
+
+              color: theme.colorScheme.error.withValues(alpha: 0.1),
               blurRadius: 20,
               offset: const Offset(0, 8),
             ),
@@ -337,7 +343,8 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
           borderRadius: BorderRadius.circular(24),
           boxShadow: [
             BoxShadow(
-              color: theme.colorScheme.primary.withOpacity(0.1),
+
+              color: theme.colorScheme.primary.withValues(alpha: 0.1),
               blurRadius: 20,
               offset: const Offset(0, 8),
             ),
@@ -363,7 +370,8 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
             Text(
               'Mevcut konumunuzun hava durumu bilgileri alınıyor',
               style: theme.textTheme.bodyMedium?.copyWith(
-                color: theme.colorScheme.onSurface.withOpacity(0.7),
+
+                color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
               ),
               textAlign: TextAlign.center,
             ),
@@ -415,7 +423,8 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
         Container(
           padding: const EdgeInsets.all(12),
           decoration: BoxDecoration(
-            color: theme.colorScheme.primary.withOpacity(0.1),
+
+            color: theme.colorScheme.primary.withValues(alpha: 0.1),
             borderRadius: BorderRadius.circular(16),
           ),
           child: Icon(
@@ -437,7 +446,8 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
         Container(
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
           decoration: BoxDecoration(
-            color: theme.colorScheme.secondary.withOpacity(0.1),
+
+            color: theme.colorScheme.secondary.withValues(alpha: 0.1),
             borderRadius: BorderRadius.circular(20),
           ),
           child: Text(
@@ -462,17 +472,19 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: [
-            theme.colorScheme.primary.withOpacity(0.1),
-            theme.colorScheme.secondary.withOpacity(0.05),
+
+            theme.colorScheme.primary.withValues(alpha: 0.1),
+            theme.colorScheme.secondary.withValues(alpha: 0.05),
           ],
         ),
         borderRadius: BorderRadius.circular(24),
         border: Border.all(
-          color: theme.colorScheme.outline.withOpacity(0.1),
+
+          color: theme.colorScheme.outline.withValues(alpha: 0.1),
         ),
         boxShadow: [
           BoxShadow(
-            color: theme.colorScheme.primary.withOpacity(0.1),
+            color: theme.colorScheme.primary.withValues(alpha: 0.1),
             blurRadius: 20,
             offset: const Offset(0, 8),
           ),
@@ -532,13 +544,15 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: theme.colorScheme.primary.withOpacity(0.08),
+
+            color: theme.colorScheme.primary.withValues(alpha: 0.08),
             blurRadius: 15,
             offset: const Offset(0, 5),
           ),
         ],
         border: Border.all(
-          color: theme.colorScheme.outline.withOpacity(0.1),
+
+          color: theme.colorScheme.outline.withValues(alpha: 0.1),
         ),
       ),
       child: Row(
@@ -553,7 +567,8 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
           Container(
             width: 1,
             height: 60,
-            color: theme.colorScheme.outline.withOpacity(0.2),
+
+            color: theme.colorScheme.outline.withValues(alpha: 0.2),
           ),
           _buildWeatherInfo(
             Icons.air_rounded,
@@ -564,7 +579,8 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
           Container(
             width: 1,
             height: 60,
-            color: theme.colorScheme.outline.withOpacity(0.2),
+
+            color: theme.colorScheme.outline.withValues(alpha: 0.2),
           ),
           _buildWeatherInfo(
             Icons.thermostat_rounded,
@@ -610,13 +626,15 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
                     colors: [
-                      theme.colorScheme.tertiary.withOpacity(0.1),
-                      theme.colorScheme.primary.withOpacity(0.05),
+
+                      theme.colorScheme.tertiary.withValues(alpha: 0.1),
+                      theme.colorScheme.primary.withValues(alpha: 0.05),
                     ],
                   ),
                   borderRadius: BorderRadius.circular(16),
                   border: Border.all(
-                    color: theme.colorScheme.outline.withOpacity(0.1),
+
+                    color: theme.colorScheme.outline.withValues(alpha: 0.1),
                   ),
                 ),
                 child: Column(
@@ -667,7 +685,8 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
         Container(
           padding: const EdgeInsets.all(8),
           decoration: BoxDecoration(
-            color: color.withOpacity(0.1),
+
+            color: color.withValues(alpha: 0.1),
             borderRadius: BorderRadius.circular(12),
           ),
           child: Icon(
@@ -688,7 +707,8 @@ class _CurrentLocationPageState extends State<CurrentLocationPage> with TickerPr
         Text(
           label,
           style: theme.textTheme.bodySmall?.copyWith(
-            color: theme.colorScheme.onSurface.withOpacity(0.7),
+
+            color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
           ),
         ),
       ],

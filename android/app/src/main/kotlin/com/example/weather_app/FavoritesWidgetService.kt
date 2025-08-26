@@ -1,11 +1,12 @@
-package com.example.weather_app
+package com.weatherapp.turkiye
 
 import android.content.Intent
 import android.widget.RemoteViewsService
 import android.content.SharedPreferences
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.example.weather_app.R
+import com.weatherapp.turkiye.R
+
 
 class FavoritesWidgetService : RemoteViewsService() {
     

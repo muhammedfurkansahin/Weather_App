@@ -1,5 +1,4 @@
-package com.example.weather_app
-
+package com.weatherapp.turkiye
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.MethodChannel
@@ -9,7 +8,8 @@ import android.content.ComponentName
 import android.content.SharedPreferences
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.example.weather_app.R
+import com.weatherapp.turkiye.R
+
 
 class MainActivity: FlutterActivity() {
     private val CHANNEL = "favorites_widget"
@@ -59,6 +59,7 @@ class MainActivity: FlutterActivity() {
         
         val favorites = try {
             gson.fromJson<MutableList<String>>(favoritesJson, type) ?: mutableListOf()
+
         } catch (e: Exception) {
             mutableListOf()
         }
@@ -79,6 +80,7 @@ class MainActivity: FlutterActivity() {
         
         val favorites = try {
             gson.fromJson<MutableList<String>>(favoritesJson, type) ?: mutableListOf()
+
         } catch (e: Exception) {
             mutableListOf()
         }
@@ -94,6 +96,7 @@ class MainActivity: FlutterActivity() {
         val appWidgetManager = AppWidgetManager.getInstance(this)
         val componentName = ComponentName(this, FavoritesWidgetProvider::class.java)
         val ids = appWidgetManager.getAppWidgetIds(componentName)
+
         intent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS, ids)
         
         sendBroadcast(intent)

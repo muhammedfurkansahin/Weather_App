@@ -1,4 +1,4 @@
-package com.example.weather_app
+package com.weatherapp.turkiye
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
@@ -9,7 +9,8 @@ import android.widget.RemoteViews
 import android.graphics.Color
 import android.os.Build
 import android.util.Log
-import com.example.weather_app.R
+import com.weatherapp.turkiye.R
+
 
 class FavoritesWidgetProvider : AppWidgetProvider() {
 
@@ -47,6 +48,7 @@ class FavoritesWidgetProvider : AppWidgetProvider() {
             R.layout.favorites_widget_2x1 -> update2x1Widget(context, views, appWidgetId)
             R.layout.favorites_widget_1x2 -> update1x2Widget(context, views, appWidgetId)
             else -> updateListWidget(context, views, appWidgetId, layoutId, appWidgetManager)
+
         }
         
         // Update widget
@@ -72,6 +74,7 @@ class FavoritesWidgetProvider : AppWidgetProvider() {
     }
     
     private fun updateListWidget(context: Context, views: RemoteViews, appWidgetId: Int, layoutId: Int, appWidgetManager: AppWidgetManager) {
+
         val listViewId = when (layoutId) {
             R.layout.favorites_widget_2x2 -> R.id.favorites_list_compact
             else -> R.id.favorites_list
