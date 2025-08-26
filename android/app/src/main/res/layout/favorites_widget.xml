@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Favori Şehirler"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#4CAF50"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <ListView
+        android:id="@+id/favorites_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/widget_title"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="4dp"
+        android:scrollbars="none"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Henüz favori şehir eklenmemiş"
+        android:textColor="#666666"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:visibility="gone" />
+
+</RelativeLayout>

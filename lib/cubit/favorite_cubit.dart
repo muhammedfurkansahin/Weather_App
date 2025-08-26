@@ -2,6 +2,7 @@ import 'package:bloc/bloc.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:weather_app/cubit/weather_cubit.dart';
 import 'package:weather_app/cubit/favorite_state.dart';
+import 'package:weather_app/services/widget_service.dart';
 
 class FavoriteCubit extends Cubit<FavoriteState> {
   final WeatherCubit weatherCubit;
@@ -18,11 +19,15 @@ class FavoriteCubit extends Cubit<FavoriteState> {
     if (favoriteCities.isNotEmpty) {
       emit(FavoriteLoaded(favoriteCities));
       weatherCubit.fetchWeatherForCities(favoriteCities);
+      // Update widget with current favorites
+      WidgetService.updateWidget(favoriteCities);
     }
   }
 
   void _saveFavorites(List<String> favoriteCities) {
     sharedPreferences.setStringList('favoriteCities', favoriteCities);
+    // Update widget when favorites change
+    WidgetService.updateWidget(favoriteCities);
   }
 
   void addFavoriteCity(String cityName) {
@@ -35,6 +40,8 @@ class FavoriteCubit extends Cubit<FavoriteState> {
     } else {
       _updateFavorites([cityName]);
     }
+    // Update widget when adding favorite
+    WidgetService.addFavorite(cityName);
   }
 
   void removeFavoriteCity(String cityName) {
@@ -45,6 +52,8 @@ class FavoriteCubit extends Cubit<FavoriteState> {
           .toList();
       _updateFavorites(updatedFavorites);
     }
+    // Update widget when removing favorite
+    WidgetService.removeFavorite(cityName);
   }
 
   void _updateFavorites(List<String> favoriteCities) {
