@@ -27,6 +27,7 @@ class ThemeCubit extends Cubit<ThemeData> {
         borderRadius: BorderRadius.circular(20),
       ),
       color: Colors.white,
+
       shadowColor: const Color(0xFF6366F1).withValues(alpha: 0.1),
     ),
     appBarTheme: const AppBarTheme(
@@ -72,7 +73,9 @@ class ThemeCubit extends Cubit<ThemeData> {
         backgroundColor: const Color(0xFF6366F1),
         foregroundColor: Colors.white,
         elevation: 0,
+
         shadowColor: const Color(0xFF6366F1).withValues(alpha: 0.3),
+
         padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(16),
@@ -141,6 +144,7 @@ class ThemeCubit extends Cubit<ThemeData> {
         borderRadius: BorderRadius.circular(20),
       ),
       color: const Color(0xFF1A1B3A),
+
       shadowColor: const Color(0xFF818CF8).withValues(alpha: 0.1),
     ),
     appBarTheme: const AppBarTheme(
@@ -186,6 +190,7 @@ class ThemeCubit extends Cubit<ThemeData> {
         backgroundColor: const Color(0xFF818CF8),
         foregroundColor: const Color(0xFF0F0F23),
         elevation: 0,
+
         shadowColor: const Color(0xFF818CF8).withValues(alpha: 0.3),
         padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
         shape: RoundedRectangleBorder(

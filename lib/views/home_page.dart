@@ -92,6 +92,7 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
         floatingActionButton: FloatingActionButton(
+
           backgroundColor: colorScheme.primary.withValues(alpha: 0.9),
           onPressed: () {
             Navigator.push(
@@ -113,6 +114,7 @@ class _HomePageState extends State<HomePage> {
             BottomNavigationBarItem(
               icon: Icon(
                 Icons.star,
+
                 color: _selectedIndex == 0 ? colorScheme.primary : colorScheme.onSurface.withValues(alpha: 0.6),
                 size: 3.h,
               ),
@@ -121,6 +123,7 @@ class _HomePageState extends State<HomePage> {
             BottomNavigationBarItem(
               icon: Icon(
                 Icons.search,
+
                 color: _selectedIndex == 1 ? colorScheme.primary : colorScheme.onSurface.withValues(alpha: 0.6),
                 size: 3.h,
               ),
@@ -129,6 +132,7 @@ class _HomePageState extends State<HomePage> {
           ],
           currentIndex: _selectedIndex,
           selectedItemColor: colorScheme.primary,
+
           unselectedItemColor: colorScheme.onSurface.withValues(alpha: 0.6),
           backgroundColor: colorScheme.surface,
           selectedLabelStyle: theme.textTheme.bodySmall?.copyWith(
@@ -137,6 +141,7 @@ class _HomePageState extends State<HomePage> {
             fontSize: 1.5.h,
           ),
           unselectedLabelStyle: theme.textTheme.bodySmall?.copyWith(
+
             color: colorScheme.onSurface.withValues(alpha: 0.6),
             fontSize: 1.5.h,
           ),
