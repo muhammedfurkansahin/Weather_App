@@ -19,12 +19,15 @@ class ProjectKeywords {
 }
 
 class ErrorMessage {
-  static const error = 'Error';
-  static const serviceDisabled = 'Location services are disabled.';
-  static const locationPermissionDenied = 'Location permissions are denied.';
-  static const locationPermissionPermaDenied =
-      'Location permissions are permanently denied, we cannot request permissions.';
-  static const weatherDataFailed = 'Failed to load weather data';
+  static const error = 'Hata';
+  static const serviceDisabled = 'Konum servisleri kapalı. Lütfen açın.';
+  static const locationPermissionDenied = 'Konum izni reddedildi.';
+  static const locationPermissionPermaDenied = 'Konum izni kalıcı olarak reddedildi.';
+  static const weatherDataFailed = 'Hava durumu bilgileri alınamadı';
+  static const networkError = 'İnternet bağlantısı hatası';
+  static const cityNotFound = 'Şehir bulunamadı';
+  static const serverError = 'Sunucu hatası';
+  static const unknownError = 'Bilinmeyen bir hata oluştu';
   static const textfieldWarning = 'TextField boş olamaz';
   static const textfieldBoundry = 'En az üç karakter giriniz';
 }
