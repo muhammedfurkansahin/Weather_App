@@ -10,7 +10,7 @@ import android.graphics.Color
 import android.os.Build
 import android.util.Log
 import com.weatherapp.turkiye.R
-
+import com.weatherapp.turkiye.R
 
 class FavoritesWidgetProvider : AppWidgetProvider() {
 
@@ -108,6 +108,10 @@ class FavoritesWidgetProvider : AppWidgetProvider() {
         )
         views.setPendingIntentTemplate(listViewId, clickPendingIntent)
         
+        // Get AppWidgetManager instance and notify data changed
+        val appWidgetManager = AppWidgetManager.getInstance(context)
+        // Get AppWidgetManager instance and notify data changed
+        val appWidgetManager = AppWidgetManager.getInstance(context)
         appWidgetManager.notifyAppWidgetViewDataChanged(appWidgetId, listViewId)
     }
     

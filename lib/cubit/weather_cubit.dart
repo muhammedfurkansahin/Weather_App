@@ -1,5 +1,8 @@
+import 'dart:convert';
 import 'package:bloc/bloc.dart';
 import 'package:dio/dio.dart';
+import 'package:flutter/foundation.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:weather_app/languages/text_widgets.dart';
 import 'package:weather_app/models/weather_model.dart';
 import 'package:weather_app/cubit/weather_state.dart';
@@ -38,8 +41,7 @@ class WeatherCubit extends Cubit<WeatherState> {
 
   Future<void> fetchWeather(String city) async {
     const apiKey = _ApiKey.apiKey;
-    final url =
-        'https://api.weatherapi.com/v1/forecast.json?key=$apiKey&q=$city&days=3&lang=tr';
+    final url = 'https://api.weatherapi.com/v1/forecast.json?key=$apiKey&q=$city&days=3&lang=tr';
 
     try {
       emit(WeatherLoading());
@@ -94,12 +96,38 @@ class WeatherCubit extends Cubit<WeatherState> {
       if (response.statusCode == 200) {
         final jsonResponse = response.data;
         final weather = Weather.fromJson(jsonResponse);
+        await _saveWeatherToCache(weather);
         emit(WeatherLoaded(weather));
       } else {
         emit(WeatherError(ErrorMessage.weatherDataFailed));
       }
     } catch (e) {
       emit(WeatherError(_getErrorMessage(e)));
+    }
+  }
+
+  Future<void> loadCachedWeather() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final cachedJson = prefs.getString('cached_weather');
+      if (cachedJson != null) {
+        final Map<String, dynamic> jsonMap = jsonDecode(cachedJson);
+        final weather = Weather.fromJson(jsonMap);
+        emit(WeatherLoaded(weather));
+      }
+    } catch (e) {
+      // Ignore cache errors, just don't emit loaded
+      debugPrint('Cache load error: $e');
+    }
+  }
+
+  Future<void> _saveWeatherToCache(Weather weather) async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final jsonMap = weather.toJson();
+      await prefs.setString('cached_weather', jsonEncode(jsonMap));
+    } catch (e) {
+      debugPrint('Cache save error: $e');
     }
   }
 }

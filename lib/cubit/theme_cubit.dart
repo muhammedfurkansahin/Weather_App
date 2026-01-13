@@ -21,7 +21,7 @@ class ThemeCubit extends Cubit<ThemeData> {
       outline: Color(0xFFE5E7EB),
       surfaceContainerHighest: Color(0xFFF8FAFC),
     ),
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       elevation: 0,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(20),
@@ -138,7 +138,7 @@ class ThemeCubit extends Cubit<ThemeData> {
       outline: Color(0xFF2D3748),
       surfaceContainerHighest: Color(0xFF252641),
     ),
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       elevation: 0,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(20),

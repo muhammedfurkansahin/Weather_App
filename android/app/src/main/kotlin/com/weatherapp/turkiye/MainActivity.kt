@@ -9,7 +9,9 @@ import android.content.SharedPreferences
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.weatherapp.turkiye.R
-
+import java.util.ArrayList
+import com.weatherapp.turkiye.R
+import java.util.ArrayList
 
 class MainActivity: FlutterActivity() {
     private val CHANNEL = "favorites_widget"
@@ -61,7 +63,8 @@ class MainActivity: FlutterActivity() {
             gson.fromJson<MutableList<String>>(favoritesJson, type) ?: mutableListOf()
 
         } catch (e: Exception) {
-            mutableListOf()
+            ArrayList()
+            ArrayList()
         }
         
         if (!favorites.contains(cityName)) {
@@ -82,7 +85,8 @@ class MainActivity: FlutterActivity() {
             gson.fromJson<MutableList<String>>(favoritesJson, type) ?: mutableListOf()
 
         } catch (e: Exception) {
-            mutableListOf()
+            ArrayList()
+            ArrayList()
         }
         
         favorites.remove(cityName)

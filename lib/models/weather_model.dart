@@ -8,11 +8,13 @@ class Weather {
   final double feelsLike;
   final List<DailyWeather> dailyWeather;
   final List<HourlyWeather> hourlyWeather;
+  final int conditionCode;
 
   Weather({
     required this.cityName,
     required this.temperature,
     required this.description,
+    required this.conditionCode,
     required this.icon,
     required this.windSpeed,
     required this.humidity,
@@ -22,18 +24,17 @@ class Weather {
   });
 
   factory Weather.fromJson(Map<String, dynamic> json) {
-    List<DailyWeather> dailyWeather = (json['forecast']['forecastday'] as List)
-        .map((day) => DailyWeather.fromJson(day))
+    List<DailyWeather> dailyWeather =
+        (json['forecast']['forecastday'] as List).map((day) => DailyWeather.fromJson(day)).toList();
+    List<HourlyWeather> hourlyWeather = (json['forecast']['forecastday'][0]['hour'] as List)
+        .map((hour) => HourlyWeather.fromJson(hour))
         .toList();
-    List<HourlyWeather> hourlyWeather =
-        (json['forecast']['forecastday'][0]['hour'] as List)
-            .map((hour) => HourlyWeather.fromJson(hour))
-            .toList();
 
     return Weather(
       cityName: json['location']['name'],
       temperature: (json['current']['temp_c'] as num).toDouble(),
       description: json['current']['condition']['text'],
+      conditionCode: (json['current']['condition']['code'] as num).toInt(),
       icon: 'https:${json['current']['condition']['icon']}',
       windSpeed: (json['current']['wind_kph'] as num).toDouble(),
       humidity: (json['current']['humidity'] as num).toDouble(),
@@ -41,6 +42,25 @@ class Weather {
       dailyWeather: dailyWeather,
       hourlyWeather: hourlyWeather,
     );
+  }
+  Map<String, dynamic> toJson() {
+    return {
+      'location': {'name': cityName},
+      'current': {
+        'temp_c': temperature,
+        'condition': {
+          'text': description,
+          'code': conditionCode,
+          'icon': icon.replaceFirst('https:', ''),
+        },
+        'wind_kph': windSpeed,
+        'humidity': humidity,
+        'feelslike_c': feelsLike,
+      },
+      'forecast': {
+        'forecastday': dailyWeather.map((d) => d.toJsonWithHours(hourlyWeather)).toList()
+      }
+    };
   }
 }
 
@@ -65,6 +85,18 @@ class DailyWeather {
       icon: 'https:${json['day']['condition']['icon']}',
     );
   }
+
+  Map<String, dynamic> toJsonWithHours(List<HourlyWeather>? hours) {
+    return {
+      'date': date,
+      'day': {
+        'maxtemp_c': maxTemp,
+        'mintemp_c': minTemp,
+        'condition': {'icon': icon.replaceFirst('https:', '')}
+      },
+      'hour': hours?.map((h) => h.toJson()).toList() ?? []
+    };
+  }
 }
 
 class HourlyWeather {
@@ -84,5 +116,13 @@ class HourlyWeather {
       temperature: (json['temp_c'] as num).toDouble(),
       icon: 'https:${json['condition']['icon']}',
     );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'time': time,
+      'temp_c': temperature,
+      'condition': {'icon': icon.replaceFirst('https:', '')}
+    };
   }
 }
