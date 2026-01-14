@@ -32,7 +32,7 @@ if (flutterVersionName == null) {
 android {
 
     namespace = "com.weatherapp.turkiye"
-    compileSdkVersion 35
+    compileSdkVersion 36
     ndkVersion = flutter.ndkVersion
 
 
@@ -53,10 +53,6 @@ android {
             storeFile file('debug.keystore')
             storePassword 'android'
         }
-    }
-
-    kotlinOptions {
-        jvmTarget = '1.8'
     }
 
     signingConfigs {
