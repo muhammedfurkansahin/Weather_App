@@ -21,6 +21,26 @@ linter:
   # `// ignore_for_file: name_of_lint` syntax on the line or in the file
   # producing the lint.
   rules:
+  
+flutter_deep_analyzer:
+  rules:
+    architecture:
+      god_class_threshold: 10
+      max_inheritance_depth: 3
+      max_file_lines: 300
+      max_constructor_params: 7
+    code_quality:
+      cyclomatic_complexity_threshold: 10
+      max_method_lines: 50
+      max_nesting_depth: 4
+    security:
+      enabled: true
+    performance:
+      build_complexity_threshold: 80
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/generated/**"
     # avoid_print: false  # Uncomment to disable the `avoid_print` rule
     # prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule
 

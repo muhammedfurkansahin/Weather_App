@@ -65,6 +65,7 @@ dependencies:
   
   #app icon
   flutter_launcher_icons: ^0.14.1
+  syncfusion_flutter_charts: ^32.2.4
 
 dev_dependencies:
   flutter_test:
@@ -76,7 +77,7 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
-
+  flutter_deep_analyzer: ^1.0.1
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
@@ -137,3 +138,4 @@ flutter_launcher_icons:
   macos:
     generate: true
     image_path: "assets/logo.png"
+

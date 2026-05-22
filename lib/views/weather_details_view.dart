@@ -3,6 +3,7 @@ import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:weather_app/models/weather_model.dart';
 import 'package:weather_app/languages/text_widgets.dart';
 import 'package:weather_app/views/weather_background.dart';
+import 'package:weather_app/views/weather_charts.dart';
 
 class WeatherDetailsView extends StatefulWidget {
   final Weather weather;
@@ -66,20 +67,8 @@ class _WeatherDetailsViewState extends State<WeatherDetailsView> with TickerProv
     return Stack(
       children: [
         // Background Layer
-        Positioned.fill(
-          child: Container(
-            decoration: BoxDecoration(
-              gradient: LinearGradient(
-                begin: Alignment.topCenter,
-                end: Alignment.bottomCenter,
-                colors: [
-                  theme.colorScheme.primaryContainer.withOpacity(0.3),
-                  theme.colorScheme.surface,
-                ],
-              ),
-            ),
-          ),
-        ),
+        // Background Layer
+        // Removed redundant container as WeatherBackground handles the gradient now
         Positioned.fill(
           child: WeatherBackground(
             conditionText: widget.weather.description,
@@ -141,23 +130,19 @@ class _WeatherDetailsViewState extends State<WeatherDetailsView> with TickerProv
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
-                                if (!widget.showBackButton) ...[
-                                  SizedBox(height: 2.h),
-                                  Text(
-                                    widget.weather.cityName,
-                                    style: theme.textTheme.headlineMedium?.copyWith(
-                                      color: theme.colorScheme.onSurface,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                  ),
-                                ],
                                 SizedBox(height: 2.h),
                                 _buildMainWeatherCard(context),
-                                SizedBox(height: 4.h),
-                                _buildWeatherDetailsCard(context),
-                                SizedBox(height: 4.h),
-                                _buildHourlyForecast(context),
-                                SizedBox(height: 4.h),
+                                SizedBox(height: 3.h),
+                                // New Grid for UV, Pressure, Astro
+                                AstroDetailsGrid(weather: widget.weather),
+                                SizedBox(height: 3.h),
+                                // Hourly Temp Chart
+                                HourlyTemperatureChart(hourlyWeather: widget.weather.hourlyWeather),
+                                SizedBox(height: 3.h),
+                                // Daily Precip Chart
+                                DailyPrecipitationChart(dailyWeather: widget.weather.dailyWeather),
+                                SizedBox(height: 3.h),
+                                // Keeping Daily Forecast list as it's useful
                                 _buildDailyForecast(context),
                                 SizedBox(height: 5.h),
                               ],
@@ -232,132 +217,6 @@ class _WeatherDetailsViewState extends State<WeatherDetailsView> with TickerProv
     );
   }
 
-  Widget _buildWeatherDetailsCard(BuildContext context) {
-    final theme = Theme.of(context);
-    return Container(
-      padding: const EdgeInsets.all(24),
-      decoration: BoxDecoration(
-        color: theme.colorScheme.surface.withOpacity(0.7),
-        borderRadius: BorderRadius.circular(20),
-        boxShadow: [
-          BoxShadow(
-            color: theme.colorScheme.shadow.withOpacity(0.05),
-            blurRadius: 15,
-            offset: const Offset(0, 5),
-          ),
-        ],
-      ),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
-        children: [
-          _buildWeatherInfo(
-            context,
-            Icons.water_drop_rounded,
-            '${widget.weather.humidity}${MeasureUnit.percent}',
-            ProjectKeywords.humidity,
-            theme.colorScheme.primary,
-          ),
-          Container(
-            width: 1,
-            height: 50,
-            color: theme.colorScheme.outline.withValues(alpha: 0.2),
-          ),
-          _buildWeatherInfo(
-            context,
-            Icons.air_rounded,
-            '${widget.weather.windSpeed} ${MeasureUnit.kilometer}',
-            ProjectKeywords.windSpeed,
-            theme.colorScheme.secondary,
-          ),
-          Container(
-            width: 1,
-            height: 50,
-            color: theme.colorScheme.outline.withValues(alpha: 0.2),
-          ),
-          _buildWeatherInfo(
-            context,
-            Icons.thermostat_rounded,
-            '${widget.weather.feelsLike}${MeasureUnit.centigrade}',
-            ProjectKeywords.feelsLike,
-            theme.colorScheme.tertiary,
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildHourlyForecast(BuildContext context) {
-    final theme = Theme.of(context);
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 4),
-          child: Text(
-            ProjectKeywords.hourlyForecast,
-            style: theme.textTheme.titleLarge?.copyWith(
-              fontWeight: FontWeight.w700,
-              color: theme.colorScheme.onSurface,
-            ),
-          ),
-        ),
-        const SizedBox(height: 16),
-        SizedBox(
-          height: 160,
-          child: ListView.builder(
-            physics: const BouncingScrollPhysics(),
-            scrollDirection: Axis.horizontal,
-            itemCount: widget.weather.hourlyWeather.length,
-            itemBuilder: (context, index) {
-              final hourly = widget.weather.hourlyWeather[index];
-              return Container(
-                width: 100,
-                margin: const EdgeInsets.only(right: 12),
-                padding: const EdgeInsets.all(16),
-                decoration: BoxDecoration(
-                  color: theme.colorScheme.surface.withOpacity(0.6),
-                  borderRadius: BorderRadius.circular(16),
-                  border: Border.all(
-                    color: theme.colorScheme.outline.withValues(alpha: 0.1),
-                  ),
-                ),
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      hourly.time,
-                      style: theme.textTheme.bodySmall?.copyWith(
-                        color: theme.colorScheme.onSurface,
-                        fontWeight: FontWeight.w600,
-                      ),
-                    ),
-                    const SizedBox(height: 12),
-                    Image.network(
-                      hourly.icon,
-                      width: 40,
-                      height: 40,
-                      errorBuilder: (context, error, stackTrace) {
-                        return Icon(Icons.cloud, size: 40);
-                      },
-                    ),
-                    const SizedBox(height: 12),
-                    Text(
-                      '${hourly.temperature}${MeasureUnit.centigrade}',
-                      style: theme.textTheme.titleMedium?.copyWith(
-                        color: theme.colorScheme.primary,
-                        fontWeight: FontWeight.w700,
-                      ),
-                    ),
-                  ],
-                ),
-              );
-            },
-          ),
-        ),
-      ],
-    );
-  }
-
   Widget _buildDailyForecast(BuildContext context) {
     final theme = Theme.of(context);
     return Column(
@@ -397,42 +256,6 @@ class _WeatherDetailsViewState extends State<WeatherDetailsView> with TickerProv
                   ),
                 ))
             .toList(),
-      ],
-    );
-  }
-
-  Widget _buildWeatherInfo(
-      BuildContext context, IconData icon, String value, String label, Color color) {
-    final theme = Theme.of(context);
-    return Column(
-      children: [
-        Container(
-          padding: const EdgeInsets.all(8),
-          decoration: BoxDecoration(
-            color: color.withValues(alpha: 0.1),
-            borderRadius: BorderRadius.circular(12),
-          ),
-          child: Icon(
-            icon,
-            color: color,
-            size: 24,
-          ),
-        ),
-        const SizedBox(height: 12),
-        Text(
-          value,
-          style: theme.textTheme.titleMedium?.copyWith(
-            color: theme.colorScheme.onSurface,
-            fontWeight: FontWeight.w600,
-          ),
-        ),
-        const SizedBox(height: 4),
-        Text(
-          label,
-          style: theme.textTheme.bodySmall?.copyWith(
-            color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
-          ),
-        ),
       ],
     );
   }

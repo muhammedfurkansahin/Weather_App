@@ -6,6 +6,10 @@ class Weather {
   final double windSpeed;
   final double humidity;
   final double feelsLike;
+  final double uv;
+  final double pressureMb;
+  final double precipMm;
+  final int cloud;
   final List<DailyWeather> dailyWeather;
   final List<HourlyWeather> hourlyWeather;
   final int conditionCode;
@@ -19,6 +23,10 @@ class Weather {
     required this.windSpeed,
     required this.humidity,
     required this.feelsLike,
+    required this.uv,
+    required this.pressureMb,
+    required this.precipMm,
+    required this.cloud,
     required this.dailyWeather,
     required this.hourlyWeather,
   });
@@ -39,6 +47,10 @@ class Weather {
       windSpeed: (json['current']['wind_kph'] as num).toDouble(),
       humidity: (json['current']['humidity'] as num).toDouble(),
       feelsLike: (json['current']['feelslike_c'] as num).toDouble(),
+      uv: (json['current']['uv'] as num).toDouble(),
+      pressureMb: (json['current']['pressure_mb'] as num).toDouble(),
+      precipMm: (json['current']['precip_mm'] as num).toDouble(),
+      cloud: (json['current']['cloud'] as num).toInt(),
       dailyWeather: dailyWeather,
       hourlyWeather: hourlyWeather,
     );
@@ -56,6 +68,10 @@ class Weather {
         'wind_kph': windSpeed,
         'humidity': humidity,
         'feelslike_c': feelsLike,
+        'uv': uv,
+        'pressure_mb': pressureMb,
+        'precip_mm': precipMm,
+        'cloud': cloud,
       },
       'forecast': {
         'forecastday': dailyWeather.map((d) => d.toJsonWithHours(hourlyWeather)).toList()
@@ -69,12 +85,20 @@ class DailyWeather {
   final double maxTemp;
   final double minTemp;
   final String icon;
+  final String sunrise;
+  final String sunset;
+  final double totalPrecipMm;
+  final int dailyChanceOfRain;
 
   DailyWeather({
     required this.date,
     required this.maxTemp,
     required this.minTemp,
     required this.icon,
+    required this.sunrise,
+    required this.sunset,
+    required this.totalPrecipMm,
+    required this.dailyChanceOfRain,
   });
 
   factory DailyWeather.fromJson(Map<String, dynamic> json) {
@@ -83,6 +107,10 @@ class DailyWeather {
       maxTemp: (json['day']['maxtemp_c'] as num).toDouble(),
       minTemp: (json['day']['mintemp_c'] as num).toDouble(),
       icon: 'https:${json['day']['condition']['icon']}',
+      sunrise: json['astro']['sunrise'],
+      sunset: json['astro']['sunset'],
+      totalPrecipMm: (json['day']['totalprecip_mm'] as num).toDouble(),
+      dailyChanceOfRain: (json['day']['daily_chance_of_rain'] as num).toInt(),
     );
   }
 
@@ -92,7 +120,13 @@ class DailyWeather {
       'day': {
         'maxtemp_c': maxTemp,
         'mintemp_c': minTemp,
-        'condition': {'icon': icon.replaceFirst('https:', '')}
+        'condition': {'icon': icon.replaceFirst('https:', '')},
+        'totalprecip_mm': totalPrecipMm,
+        'daily_chance_of_rain': dailyChanceOfRain,
+      },
+      'astro': {
+        'sunrise': sunrise,
+        'sunset': sunset,
       },
       'hour': hours?.map((h) => h.toJson()).toList() ?? []
     };
@@ -103,11 +137,15 @@ class HourlyWeather {
   final String time;
   final double temperature;
   final String icon;
+  final double precipMm;
+  final int chanceOfRain;
 
   HourlyWeather({
     required this.time,
     required this.temperature,
     required this.icon,
+    required this.precipMm,
+    required this.chanceOfRain,
   });
 
   factory HourlyWeather.fromJson(Map<String, dynamic> json) {
@@ -115,6 +153,8 @@ class HourlyWeather {
       time: json['time'],
       temperature: (json['temp_c'] as num).toDouble(),
       icon: 'https:${json['condition']['icon']}',
+      precipMm: (json['precip_mm'] as num).toDouble(),
+      chanceOfRain: (json['chance_of_rain'] as num).toInt(),
     );
   }
 
@@ -122,7 +162,9 @@ class HourlyWeather {
     return {
       'time': time,
       'temp_c': temperature,
-      'condition': {'icon': icon.replaceFirst('https:', '')}
+      'condition': {'icon': icon.replaceFirst('https:', '')},
+      'precip_mm': precipMm,
+      'chance_of_rain': chanceOfRain,
     };
   }
 }

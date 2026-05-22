@@ -1,0 +1,4132 @@
+{
+  "flutter_deep_analyzer": {
+    "version": "0.1.0",
+    "projectPath": "/Users/muhammedfurkansahin/Documents/flutter_proje/Weather_App",
+    "timestamp": "2026-02-26T10:36:54.046182",
+    "analysisDuration": 6464,
+    "totalFilesAnalyzed": 19,
+    "summary": {
+      "totalIssues": 403,
+      "errors": 2,
+      "warnings": 25,
+      "infos": 376,
+      "styles": 0,
+      "affectedFiles": 18
+    },
+    "issues": [
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279080072. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 11,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279080072;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4293983738. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 12,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4293983738;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279080072. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 14,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279080072;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4294286859. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 15,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4294286859;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279150057. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 16,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279150057;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4294967295. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 17,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4294967295;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279455306. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 20,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279455306;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4291616689. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 21,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4291616689;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4291623921. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 22,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4291623921;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 27,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279080072. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 30,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279080072;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4293983738. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 33,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4293983738;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279455306. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 34,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279455306;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279455306. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 38,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279455306;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279328345. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 45,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279328345;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279328345. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 50,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279328345;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279455306. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 55,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279455306;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4281549141. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 60,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4281549141;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4282865001. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 65,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4282865001;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279080072. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 72,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279080072;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279080072. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 75,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279080072;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 16. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 78,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 16;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4291623921. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 88,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4291623921;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 16. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 91,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 16;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4288280292. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 92,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4288280292;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 16. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 95,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 16;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4288280292. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 96,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4288280292;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 16. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 99,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 16;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279080072. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 100,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279080072;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 16. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 103,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 16;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4293870660. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 104,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4293870660;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4284410580. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 107,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4284410580;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279203438. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 112,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279203438;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4288280292. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 116,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4288280292;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279548070. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 125,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279548070;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279179050. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 126,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279179050;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279548070. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 128,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279548070;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4294688548. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 129,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4294688548;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4281908728. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 130,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4281908728;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4280166715. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 131,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4280166715;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279179050. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 132,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279179050;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279179050. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 133,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279179050;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4294047225. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 134,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4294047225;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4281549141. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 135,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4281549141;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4281549141. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 136,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4281549141;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 141,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4280166715. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 143,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4280166715;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279548070. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 144,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279548070;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279179050. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 147,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279179050;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4294047225. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 148,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4294047225;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4294047225. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 152,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4294047225;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4293983738. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 159,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4293983738;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4291623921. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 164,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4291623921;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4293060848. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 169,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4293060848;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4287931320. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 174,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4287931320;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4284773515. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 179,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4284773515;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279548070. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 186,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279548070;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279179050. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 187,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279179050;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279548070. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 189,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279548070;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 16. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 192,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 16;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4280166715. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 202,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4280166715;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 16. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 205,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 16;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4281549141. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 206,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4281549141;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 16. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 209,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 16;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4281549141. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 210,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4281549141;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 16. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 213,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 16;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4279548070. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 214,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4279548070;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 16. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 217,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 16;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4293870660. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 218,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4293870660;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4284773515. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 221,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4284773515;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4287931320. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 226,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4287931320;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4281549141. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 230,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4281549141;"
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"ThemeCubit\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 4,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public metod \"toggleTheme\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/cubit/theme_cubit.dart",
+        "line": 235,
+        "column": 0,
+        "suggestion": "/// ile metodun ne yaptığını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"FavoriteState\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/cubit/favorite_state.dart",
+        "line": 1,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"FavoriteInitial\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/cubit/favorite_state.dart",
+        "line": 3,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"FavoriteLoaded\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/cubit/favorite_state.dart",
+        "line": 5,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 400. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/weather_cubit.dart",
+        "line": 27,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 400;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 500. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/weather_cubit.dart",
+        "line": 29,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 500;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 200. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/weather_cubit.dart",
+        "line": 50,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 200;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 200. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/cubit/weather_cubit.dart",
+        "line": 96,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 200;"
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"WeatherCubit\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/cubit/weather_cubit.dart",
+        "line": 14,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-avoid-dynamic",
+        "severity": "warning",
+        "category": "bestPractice",
+        "message": "Parametre \"error\" dynamic olarak tanımlanmış. Tip güvenliği için spesifik tip kullanın.",
+        "filePath": "lib/cubit/weather_cubit.dart",
+        "line": 19,
+        "column": 0,
+        "suggestion": "dynamic yerine spesifik tip kullanın. Birden fazla tip mümkünse Object? kullanın."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public metod \"fetchWeather\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/cubit/weather_cubit.dart",
+        "line": 42,
+        "column": 0,
+        "suggestion": "/// ile metodun ne yaptığını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public metod \"fetchWeatherForCities\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/cubit/weather_cubit.dart",
+        "line": 62,
+        "column": 0,
+        "suggestion": "/// ile metodun ne yaptığını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public metod \"fetchWeatherByLocation\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/cubit/weather_cubit.dart",
+        "line": 87,
+        "column": 0,
+        "suggestion": "/// ile metodun ne yaptığını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public metod \"loadCachedWeather\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/cubit/weather_cubit.dart",
+        "line": 109,
+        "column": 0,
+        "suggestion": "/// ile metodun ne yaptığını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-avoid-print",
+        "severity": "warning",
+        "category": "bestPractice",
+        "message": "Production kodda print()/debugPrint() kullanımı. Logger kullanın.",
+        "filePath": "lib/cubit/weather_cubit.dart",
+        "line": 120,
+        "column": 0,
+        "suggestion": "print() yerine bir Logger paketi (ör: logger, logging) kullanın. debug/release modlarına göre log seviyesi kontrol edilebilir.",
+        "codeSnippet": "debugPrint('Cache load error: $e');"
+      },
+      {
+        "ruleId": "bp-avoid-print",
+        "severity": "warning",
+        "category": "bestPractice",
+        "message": "Production kodda print()/debugPrint() kullanımı. Logger kullanın.",
+        "filePath": "lib/cubit/weather_cubit.dart",
+        "line": 130,
+        "column": 0,
+        "suggestion": "print() yerine bir Logger paketi (ör: logger, logging) kullanın. debug/release modlarına göre log seviyesi kontrol edilebilir.",
+        "codeSnippet": "debugPrint('Cache save error: $e');"
+      },
+      {
+        "ruleId": "sec-hardcoded-secret",
+        "severity": "error",
+        "category": "security",
+        "message": "Potansiyel hardcoded secret/API key tespit edildi. Secrets'ları environment variable veya güvenli depolama ile yönetin.",
+        "filePath": "lib/cubit/weather_cubit.dart",
+        "line": 11,
+        "column": 0,
+        "suggestion": "flutter_dotenv paketi veya Platform.environment kullanarak secrets'ları env variable olarak yönetin. Mobilde flutter_secure_storage kullanın.",
+        "codeSnippet": "static const apiKey = '36***************************08';"
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"WeatherState\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/cubit/weather_state.dart",
+        "line": 3,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"WeatherInitial\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/cubit/weather_state.dart",
+        "line": 5,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"WeatherLoading\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/cubit/weather_state.dart",
+        "line": 7,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"WeatherLoaded\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/cubit/weather_state.dart",
+        "line": 9,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"WeathersLoaded\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/cubit/weather_state.dart",
+        "line": 15,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"WeatherError\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/cubit/weather_state.dart",
+        "line": 21,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"FavoriteCubit\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/cubit/favorite_cubit.dart",
+        "line": 7,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public metod \"addFavoriteCity\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/cubit/favorite_cubit.dart",
+        "line": 29,
+        "column": 0,
+        "suggestion": "/// ile metodun ne yaptığını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public metod \"removeFavoriteCity\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/cubit/favorite_cubit.dart",
+        "line": 43,
+        "column": 0,
+        "suggestion": "/// ile metodun ne yaptığını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"FavoriteCity\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/models/favorites_model.dart",
+        "line": 1,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "arch-too-many-fields",
+        "severity": "warning",
+        "category": "architecture",
+        "message": "\"Weather\" sınıfında çok fazla alan var: 14. Bu, sınıfın çok fazla sorumluluğa sahip olduğunu gösterebilir.",
+        "filePath": "lib/models/weather_model.dart",
+        "line": 6,
+        "column": 0,
+        "suggestion": "İlişkili alanları ayrı sınıflara veya value object'lere taşıyın."
+      },
+      {
+        "ruleId": "arch-too-many-params",
+        "severity": "warning",
+        "category": "architecture",
+        "message": "\"Weather\" constructor'ında çok fazla parametre: 14 (eşik: 7). Builder pattern veya parametre nesnesi kullanmayı düşünün.",
+        "filePath": "lib/models/weather_model.dart",
+        "line": 399,
+        "column": 0,
+        "suggestion": "Builder pattern, parametre nesnesi veya named parameters kullanın."
+      },
+      {
+        "ruleId": "arch-too-many-params",
+        "severity": "warning",
+        "category": "architecture",
+        "message": "\"DailyWeather\" constructor'ında çok fazla parametre: 8 (eşik: 7). Builder pattern veya parametre nesnesi kullanmayı düşünün.",
+        "filePath": "lib/models/weather_model.dart",
+        "line": 2878,
+        "column": 0,
+        "suggestion": "Builder pattern, parametre nesnesi veya named parameters kullanın."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"Weather\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/models/weather_model.dart",
+        "line": 1,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public metod \"toJson\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/models/weather_model.dart",
+        "line": 58,
+        "column": 0,
+        "suggestion": "/// ile metodun ne yaptığını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"DailyWeather\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/models/weather_model.dart",
+        "line": 83,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public metod \"toJsonWithHours\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/models/weather_model.dart",
+        "line": 117,
+        "column": 0,
+        "suggestion": "/// ile metodun ne yaptığını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"HourlyWeather\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/models/weather_model.dart",
+        "line": 136,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public metod \"toJson\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/models/weather_model.dart",
+        "line": 161,
+        "column": 0,
+        "suggestion": "/// ile metodun ne yaptığını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"MyApp\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/main.dart",
+        "line": 14,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "arch-too-many-fields",
+        "severity": "warning",
+        "category": "architecture",
+        "message": "\"ProjectKeywords\" sınıfında çok fazla alan var: 17. Bu, sınıfın çok fazla sorumluluğa sahip olduğunu gösterebilir.",
+        "filePath": "lib/languages/text_widgets.dart",
+        "line": 6,
+        "column": 0,
+        "suggestion": "İlişkili alanları ayrı sınıflara veya value object'lere taşıyın."
+      },
+      {
+        "ruleId": "arch-too-many-fields",
+        "severity": "warning",
+        "category": "architecture",
+        "message": "\"ErrorMessage\" sınıfında çok fazla alan var: 11. Bu, sınıfın çok fazla sorumluluğa sahip olduğunu gösterebilir.",
+        "filePath": "lib/languages/text_widgets.dart",
+        "line": 766,
+        "column": 0,
+        "suggestion": "İlişkili alanları ayrı sınıflara veya value object'lere taşıyın."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"ProjectKeywords\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/languages/text_widgets.dart",
+        "line": 1,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"ErrorMessage\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/languages/text_widgets.dart",
+        "line": 21,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"MeasureUnit\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/languages/text_widgets.dart",
+        "line": 35,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 16. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_charts.dart",
+        "line": 19,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 16;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_charts.dart",
+        "line": 22,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 16. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_charts.dart",
+        "line": 87,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 16;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_charts.dart",
+        "line": 90,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 6. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_charts.dart",
+        "line": 132,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 6;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 6. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_charts.dart",
+        "line": 133,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 6;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 12. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_charts.dart",
+        "line": 178,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 12;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 16. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_charts.dart",
+        "line": 181,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 16;"
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"HourlyTemperatureChart\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/weather_charts.dart",
+        "line": 6,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"DailyPrecipitationChart\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/weather_charts.dart",
+        "line": 76,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"AstroDetailsGrid\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/weather_charts.dart",
+        "line": 145,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 3. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_details_view.dart",
+        "line": 92,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 3;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 10. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_details_view.dart",
+        "line": 114,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 10;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 5. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_details_view.dart",
+        "line": 129,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 5;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 3. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_details_view.dart",
+        "line": 135,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 3;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 3. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_details_view.dart",
+        "line": 138,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 3;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 3. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_details_view.dart",
+        "line": 141,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 3;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 3. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_details_view.dart",
+        "line": 144,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 3;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 5. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_details_view.dart",
+        "line": 147,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 5;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 32. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_details_view.dart",
+        "line": 168,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 32;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 24. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_details_view.dart",
+        "line": 171,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 24;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 8. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_details_view.dart",
+        "line": 179,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 8;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 12. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_details_view.dart",
+        "line": 187,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 12;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 12. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_details_view.dart",
+        "line": 188,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 12;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 16. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_details_view.dart",
+        "line": 239,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 16;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 16. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_details_view.dart",
+        "line": 242,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 16;"
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"WeatherDetailsView\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/weather_details_view.dart",
+        "line": 8,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "arch-large-file",
+        "severity": "info",
+        "category": "architecture",
+        "message": "Dosya çok büyük: 562 satır (eşik: 300). Dosyayı daha küçük parçalara ayırmayı düşünün.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 1,
+        "column": 0,
+        "suggestion": "Dosyayı sorumluluk alanlarına göre daha küçük dosyalara bölün."
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1000. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 14,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1000;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1003. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 16,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1003;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1006. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 17,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1006;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1009. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 18,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1009;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1030. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 20,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1030;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1135. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 21,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1135;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1147. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 22,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1147;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1063. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 24,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1063;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1150. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 25,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1150;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1153. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 26,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1153;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1168. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 27,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1168;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1171. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 28,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1171;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1180. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 29,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1180;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1183. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 30,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1183;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1186. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 31,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1186;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1189. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 32,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1189;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1192. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 33,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1192;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1195. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 34,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1195;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1198. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 35,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1198;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1201. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 36,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1201;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1240. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 37,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1240;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1243. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 38,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1243;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1246. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 39,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1246;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1066. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 41,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1066;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1114. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 42,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1114;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1117. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 43,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1117;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1210. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 44,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1210;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1213. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 45,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1213;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1216. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 46,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1216;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1219. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 47,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1219;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1222. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 48,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1222;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1225. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 49,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1225;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1255. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 50,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1255;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1258. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 51,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1258;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1069. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 52,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1069;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1072. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 53,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1072;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1204. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 54,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1204;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1207. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 55,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1207;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1237. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 56,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1237;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1249. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 57,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1249;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1252. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 58,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1252;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1261. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 59,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1261;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1264. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 60,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1264;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1087. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 62,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1087;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1273. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 63,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1273;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1276. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 64,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1276;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1279. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 65,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1279;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 1282. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 66,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 1282;"
+      },
+      {
+        "ruleId": "quality-cyclomatic-complexity",
+        "severity": "warning",
+        "category": "codeQuality",
+        "message": "\"_fallbackCondition\" fonksiyonunun cyclomatic complexity'si çok yüksek: 13 (eşik: 10).",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 73,
+        "column": 0,
+        "suggestion": "Koşulları sadeleştirin, guard clause kullanın veya stratejilere ayırın."
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4283410629. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 105,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4283410629;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4286961870. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 105,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4286961870;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4285433236. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 107,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4285433236;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4287866806. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 107,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4287866806;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4281812815. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 109,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4281812815;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4283723386. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 109,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4283723386;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4287669422. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 111,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4287669422;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4291811548. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 111,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4291811548;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4280361249. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 113,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4280361249;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4281812815. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 113,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4281812815;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4288585374. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 115,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4288585374;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4290624957. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 115,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4290624957;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4285433236. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 117,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4285433236;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4287866806. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 117,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4287866806;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4294951175. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 195,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4294951175;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4294953512. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 202,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4294953512;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4294953512. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 203,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4294953512;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 3. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 205,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 3;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 3. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 207,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 3;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4294953512. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 212,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4294953512;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 10. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 223,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 10;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 10. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 224,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 10;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 42. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 230,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 42;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 30. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 234,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 30;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 50. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 235,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 50;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 236,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 5. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 270,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 5;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 400. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 272,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 400;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 200. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 273,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 200;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 100. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 327,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 100;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 200. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 327,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 200;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 100. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 327,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 100;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 60. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 334,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 60;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 40. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 334,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 40;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 25. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 335,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 25;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 10. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 335,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 10;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 70. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 335,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 70;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 50. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 335,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 50;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 50. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 336,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 50;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 60. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 336,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 60;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 40. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 336,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 40;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 150. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 367,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 150;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 10. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 408,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 10;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 410,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 5. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 416,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 5;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 15. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 416,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 15;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 100. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 447,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 100;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 10. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 489,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 10;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 5. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 519,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 5;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 3. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 519,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 3;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 400. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 557,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 400;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 800. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 558,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 800;"
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"WeatherBackground\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 6,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"SunEffect\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 144,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"SunPainter\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 183,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"CloudEffect\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 245,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"CloudShape\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 299,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"CloudPainter\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 307,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"RainEffect\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 347,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"SnowEffect\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 427,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"ThunderEffect\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 501,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "sec-insecure-random",
+        "severity": "warning",
+        "category": "security",
+        "message": "Güvensiz Random() kullanımı. Kriptografik işlemler için Random.secure() kullanın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 230,
+        "column": 0,
+        "suggestion": "Random() yerine Random.secure() kullanın, özellikle token/nonce üretiminde."
+      },
+      {
+        "ruleId": "sec-insecure-random",
+        "severity": "warning",
+        "category": "security",
+        "message": "Güvensiz Random() kullanımı. Kriptografik işlemler için Random.secure() kullanın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 269,
+        "column": 0,
+        "suggestion": "Random() yerine Random.secure() kullanın, özellikle token/nonce üretiminde."
+      },
+      {
+        "ruleId": "sec-insecure-random",
+        "severity": "warning",
+        "category": "security",
+        "message": "Güvensiz Random() kullanımı. Kriptografik işlemler için Random.secure() kullanın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 357,
+        "column": 0,
+        "suggestion": "Random() yerine Random.secure() kullanın, özellikle token/nonce üretiminde."
+      },
+      {
+        "ruleId": "sec-insecure-random",
+        "severity": "warning",
+        "category": "security",
+        "message": "Güvensiz Random() kullanımı. Kriptografik işlemler için Random.secure() kullanın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 411,
+        "column": 0,
+        "suggestion": "Random() yerine Random.secure() kullanın, özellikle token/nonce üretiminde."
+      },
+      {
+        "ruleId": "sec-insecure-random",
+        "severity": "warning",
+        "category": "security",
+        "message": "Güvensiz Random() kullanımı. Kriptografik işlemler için Random.secure() kullanın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 437,
+        "column": 0,
+        "suggestion": "Random() yerine Random.secure() kullanın, özellikle token/nonce üretiminde."
+      },
+      {
+        "ruleId": "sec-insecure-random",
+        "severity": "warning",
+        "category": "security",
+        "message": "Güvensiz Random() kullanımı. Kriptografik işlemler için Random.secure() kullanın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 490,
+        "column": 0,
+        "suggestion": "Random() yerine Random.secure() kullanın, özellikle token/nonce üretiminde."
+      },
+      {
+        "ruleId": "sec-insecure-random",
+        "severity": "warning",
+        "category": "security",
+        "message": "Güvensiz Random() kullanımı. Kriptografik işlemler için Random.secure() kullanın.",
+        "filePath": "lib/views/weather_background.dart",
+        "line": 519,
+        "column": 0,
+        "suggestion": "Random() yerine Random.secure() kullanın, özellikle token/nonce üretiminde."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"WeatherDetailsPage\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/weather_details_page.dart",
+        "line": 5,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "arch-large-file",
+        "severity": "info",
+        "category": "architecture",
+        "message": "Dosya çok büyük: 371 satır (eşik: 300). Dosyayı daha küçük parçalara ayırmayı düşünün.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 1,
+        "column": 0,
+        "suggestion": "Dosyayı sorumluluk alanlarına göre daha küçük dosyalara bölün."
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 8. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 103,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 8;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 10. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 104,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 10;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 6. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 107,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 6;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 5. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 111,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 5;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 5. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 120,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 5;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 8. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 127,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 8;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 6. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 131,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 6;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 3. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 141,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 3;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 159,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 24. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 160,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 24;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 163,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 168,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 206,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 12. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 222,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 12;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 240,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 5. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 245,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 5;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 254,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 276,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 8. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 307,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 8;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 12. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 310,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 12;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 8. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 352,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 8;"
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"FavoritePage\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/favorite_pages.dart",
+        "line": 11,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "arch-large-file",
+        "severity": "info",
+        "category": "architecture",
+        "message": "Dosya çok büyük: 339 satır (eşik: 300). Dosyayı daha küçük parçalara ayırmayı düşünün.",
+        "filePath": "lib/views/home_page.dart",
+        "line": 1,
+        "column": 0,
+        "suggestion": "Dosyayı sorumluluk alanlarına göre daha küçük dosyalara bölün."
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 3. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/home_page.dart",
+        "line": 132,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 3;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 3. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/home_page.dart",
+        "line": 136,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 3;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 3. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/home_page.dart",
+        "line": 140,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 3;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 10. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/home_page.dart",
+        "line": 218,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 10;"
+      },
+      {
+        "ruleId": "quality-cyclomatic-complexity",
+        "severity": "warning",
+        "category": "codeQuality",
+        "message": "\"_buildPageIndicator\" fonksiyonunun cyclomatic complexity'si çok yüksek: 12 (eşik: 10).",
+        "filePath": "lib/views/home_page.dart",
+        "line": 247,
+        "column": 0,
+        "suggestion": "Koşulları sadeleştirin, guard clause kullanın veya stratejilere ayırın."
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 24. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/home_page.dart",
+        "line": 259,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 24;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 12. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/home_page.dart",
+        "line": 259,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 12;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/home_page.dart",
+        "line": 259,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 8. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/home_page.dart",
+        "line": 259,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 8;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 24. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/home_page.dart",
+        "line": 260,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 24;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 12. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/home_page.dart",
+        "line": 260,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 12;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/home_page.dart",
+        "line": 260,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 8. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/home_page.dart",
+        "line": 260,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 8;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 16. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/home_page.dart",
+        "line": 272,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 16;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 14. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/home_page.dart",
+        "line": 272,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 14;"
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"HomePage\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/home_page.dart",
+        "line": 16,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"HomeView\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/home_page.dart",
+        "line": 45,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-avoid-print",
+        "severity": "warning",
+        "category": "bestPractice",
+        "message": "Production kodda print()/debugPrint() kullanımı. Logger kullanın.",
+        "filePath": "lib/views/home_page.dart",
+        "line": 78,
+        "column": 0,
+        "suggestion": "print() yerine bir Logger paketi (ör: logger, logging) kullanın. debug/release modlarına göre log seviyesi kontrol edilebilir.",
+        "codeSnippet": "debugPrint(\"Location error: $e\");"
+      },
+      {
+        "ruleId": "perf-unnecessary-rebuild",
+        "severity": "warning",
+        "category": "performance",
+        "message": "Build metodu içinde setState() çağrısı tespit edildi. Bu sonsuz rebuild döngüsüne neden olabilir!",
+        "filePath": "lib/views/home_page.dart",
+        "line": 149,
+        "column": 0,
+        "suggestion": "setState'i build metodu dışında, event handler'larda kullanın."
+      },
+      {
+        "ruleId": "mem-missing-dispose",
+        "severity": "error",
+        "category": "memoryLeak",
+        "message": "\"_HomeViewState\" sınıfında dispose() metodu yok ama 1 disposable kaynak var: _pageController.",
+        "filePath": "lib/views/home_page.dart",
+        "line": 52,
+        "column": 0,
+        "suggestion": "dispose() metodunu override edip tüm controller, subscription ve timer'ları temizleyin. super.dispose() çağrısını unutmayın."
+      },
+      {
+        "ruleId": "arch-god-class",
+        "severity": "warning",
+        "category": "architecture",
+        "message": "\"_CurrentLocationPageState\" sınıfı God class olabilir: 16 metod (eşik: 10). Sınıfı daha küçük, tek sorumluluk ilkesine uygun sınıflara bölmeyi düşünün.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 550,
+        "column": 0,
+        "suggestion": "Single Responsibility Principle uygulayın. Sınıfı sorumluluk alanlarına göre bölün."
+      },
+      {
+        "ruleId": "arch-large-file",
+        "severity": "info",
+        "category": "architecture",
+        "message": "Dosya çok büyük: 718 satır (eşik: 300). Dosyayı daha küçük parçalara ayırmayı düşünün.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 1,
+        "column": 0,
+        "suggestion": "Dosyayı sorumluluk alanlarına göre daha küçük dosyalara bölün."
+      },
+      {
+        "ruleId": "quality-too-many-methods",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "\"_CurrentLocationPageState\" sınıfında çok fazla metod var: 16 (eşik: 15).",
+        "filePath": "lib/views/current_location.dart",
+        "line": 16,
+        "column": 0,
+        "suggestion": "Sınıfı daha küçük, tek sorumluluklu sınıflara bölmeyi düşünün."
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 3. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 146,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 3;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 3. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 171,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 3;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 6. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 222,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 6;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 8. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 230,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 8;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 8. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 235,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 8;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 6. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 240,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 6;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 24. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 267,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 24;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 32. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 268,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 32;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 24. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 271,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 24;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 8. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 277,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 8;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 24. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 339,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 24;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 32. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 340,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 32;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 24. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 343,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 24;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 8. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 349,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 8;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 3. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 358,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 3;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 5. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 396,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 5;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 10. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 400,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 10;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 8. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 402,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 8;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 6. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 404,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 6;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 6. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 406,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 6;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 5. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 408,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 5;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 12. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 424,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 12;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 16. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 428,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 16;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 451,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 32. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 469,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 32;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 24. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 480,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 24;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 8. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 489,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 8;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 500,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 10. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 504,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 10;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 10. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 505,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 10;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 24. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 541,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 24;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 544,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 5. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 550,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 5;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 16. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 623,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 16;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 16. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 634,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 16;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 8. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 686,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 8;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 12. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 690,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 12;"
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"CurrentLocationPage\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 9,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public metod \"currentLocationWeather\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 384,
+        "column": 0,
+        "suggestion": "/// ile metodun ne yaptığını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "race-unawaited-future",
+        "severity": "warning",
+        "category": "raceCondition",
+        "message": "Await edilmemiş Future: fetchWeatherByLocation(). Bu bir race condition'a neden olabilir.",
+        "filePath": "lib/views/current_location.dart",
+        "line": 81,
+        "column": 0,
+        "suggestion": "await keyword ekleyin veya unawaited() ile kasıtlı olduğunu belirtin."
+      },
+      {
+        "ruleId": "arch-god-class",
+        "severity": "warning",
+        "category": "architecture",
+        "message": "\"SearchPageState\" sınıfı God class olabilir: 11 metod (eşik: 10). Sınıfı daha küçük, tek sorumluluk ilkesine uygun sınıflara bölmeyi düşünün.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 522,
+        "column": 0,
+        "suggestion": "Single Responsibility Principle uygulayın. Sınıfı sorumluluk alanlarına göre bölün."
+      },
+      {
+        "ruleId": "arch-large-file",
+        "severity": "info",
+        "category": "architecture",
+        "message": "Dosya çok büyük: 646 satır (eşik: 300). Dosyayı daha küçük parçalara ayırmayı düşünün.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 1,
+        "column": 0,
+        "suggestion": "Dosyayı sorumluluk alanlarına göre daha küçük dosyalara bölün."
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 5. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 66,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 5;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 5. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 72,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 5;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 8. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 74,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 8;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 6. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 76,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 6;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 5. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 92,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 5;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 100,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 3. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 110,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 3;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 6. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 132,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 6;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 5. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 137,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 5;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 6. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 148,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 6;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 3. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 166,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 3;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 3. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 171,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 3;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 189,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 193,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 200,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 207,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 5. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 213,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 5;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 214,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 6. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 227,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 6;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 244,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 246,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 24. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 297,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 24;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 300,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 32. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 331,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 32;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 334,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 5. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 340,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 5;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 24. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 366,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 24;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 369,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 4. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 375,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 4;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 24. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 417,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 24;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 8. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 423,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 8;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 24. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 436,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 24;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 24. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 448,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 24;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 24. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 449,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 24;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 468,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 24. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 483,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 24;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 16. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 491,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 16;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 495,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 20. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 535,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 20;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 16. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 538,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 16;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 12. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 582,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 12;"
+      },
+      {
+        "ruleId": "quality-magic-number",
+        "severity": "info",
+        "category": "codeQuality",
+        "message": "Magic number tespit edildi: 16. Anlamlı bir sabit olarak tanımlayın.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 604,
+        "column": 0,
+        "suggestion": "Bu değeri açıklayıcı isimli bir const ile değiştirin, ör: const maxRetryCount = 16;"
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"SearchPage\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 9,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"SearchPageState\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 16,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public metod \"searchCityBlocBuilder\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 276,
+        "column": 0,
+        "suggestion": "/// ile metodun ne yaptığını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public metod \"searchCityWeather\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/views/search_page.dart",
+        "line": 412,
+        "column": 0,
+        "suggestion": "/// ile metodun ne yaptığını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public sınıf \"WidgetService\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/services/widget_service.dart",
+        "line": 4,
+        "column": 0,
+        "suggestion": "/// ile sınıfın amacını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public metod \"updateWidget\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/services/widget_service.dart",
+        "line": 7,
+        "column": 0,
+        "suggestion": "/// ile metodun ne yaptığını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public metod \"addFavorite\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/services/widget_service.dart",
+        "line": 17,
+        "column": 0,
+        "suggestion": "/// ile metodun ne yaptığını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-missing-doc",
+        "severity": "info",
+        "category": "bestPractice",
+        "message": "Public metod \"removeFavorite\" dökümantasyon yorumu içermiyor.",
+        "filePath": "lib/services/widget_service.dart",
+        "line": 27,
+        "column": 0,
+        "suggestion": "/// ile metodun ne yaptığını açıklayan bir dökümantasyon ekleyin."
+      },
+      {
+        "ruleId": "bp-avoid-print",
+        "severity": "warning",
+        "category": "bestPractice",
+        "message": "Production kodda print()/debugPrint() kullanımı. Logger kullanın.",
+        "filePath": "lib/services/widget_service.dart",
+        "line": 13,
+        "column": 0,
+        "suggestion": "print() yerine bir Logger paketi (ör: logger, logging) kullanın. debug/release modlarına göre log seviyesi kontrol edilebilir.",
+        "codeSnippet": "print('Error updating widget: $e');"
+      },
+      {
+        "ruleId": "bp-avoid-print",
+        "severity": "warning",
+        "category": "bestPractice",
+        "message": "Production kodda print()/debugPrint() kullanımı. Logger kullanın.",
+        "filePath": "lib/services/widget_service.dart",
+        "line": 23,
+        "column": 0,
+        "suggestion": "print() yerine bir Logger paketi (ör: logger, logging) kullanın. debug/release modlarına göre log seviyesi kontrol edilebilir.",
+        "codeSnippet": "print('Error adding favorite to widget: $e');"
+      },
+      {
+        "ruleId": "bp-avoid-print",
+        "severity": "warning",
+        "category": "bestPractice",
+        "message": "Production kodda print()/debugPrint() kullanımı. Logger kullanın.",
+        "filePath": "lib/services/widget_service.dart",
+        "line": 33,
+        "column": 0,
+        "suggestion": "print() yerine bir Logger paketi (ör: logger, logging) kullanın. debug/release modlarına göre log seviyesi kontrol edilebilir.",
+        "codeSnippet": "print('Error removing favorite from widget: $e');"
+      }
+    ],
+    "score": {
+      "overallScore": 76.61445783132531,
+      "grade": "C",
+      "categories": [
+        {
+          "category": "architecture",
+          "score": 83.5,
+          "grade": "B",
+          "issueCount": 12,
+          "errors": 0,
+          "warnings": 7,
+          "infos": 5,
+          "styles": 0
+        },
+        {
+          "category": "codeQuality",
+          "score": 0.0,
+          "grade": "F",
+          "issueCount": 316,
+          "errors": 0,
+          "warnings": 2,
+          "infos": 314,
+          "styles": 0
+        },
+        {
+          "category": "bestPractice",
+          "score": 57.5,
+          "grade": "F",
+          "issueCount": 64,
+          "errors": 0,
+          "warnings": 7,
+          "infos": 57,
+          "styles": 0
+        },
+        {
+          "category": "security",
+          "score": 81.0,
+          "grade": "B",
+          "issueCount": 8,
+          "errors": 1,
+          "warnings": 7,
+          "infos": 0,
+          "styles": 0
+        },
+        {
+          "category": "raceCondition",
+          "score": 98.0,
+          "grade": "A",
+          "issueCount": 1,
+          "errors": 0,
+          "warnings": 1,
+          "infos": 0,
+          "styles": 0
+        },
+        {
+          "category": "performance",
+          "score": 98.0,
+          "grade": "A",
+          "issueCount": 1,
+          "errors": 0,
+          "warnings": 1,
+          "infos": 0,
+          "styles": 0
+        },
+        {
+          "category": "memoryLeak",
+          "score": 95.0,
+          "grade": "A",
+          "issueCount": 1,
+          "errors": 1,
+          "warnings": 0,
+          "infos": 0,
+          "styles": 0
+        }
+      ]
+    }
+  }
+}
